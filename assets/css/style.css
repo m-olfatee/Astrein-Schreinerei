@@ -8,13 +8,37 @@ body {
     font-family: "Fira Sans", sans-serif;
 }
 
-#index-section-first {
-    background-image: url(../img/menu_1.png);
+.hover {
+    display: inline-block;
+    position: relative;
+}
+.hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fafafa;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#section-first {
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.index-section-first {
+    background-image: url(../img/menu_1.png);
+}
+
 
 .navigation {
     display: flex;
@@ -41,7 +65,9 @@ body {
     text-decoration: none;
     color: #fafafa;
 }
-
+#section-first > div.section-first-link > p > a:nth-child(1) {
+    padding-right: 2%;
+}
 .section-first-link {
     color: #fafafa;
     margin: 12% 0 0 40%;
@@ -87,15 +113,11 @@ body {
 }
 
 .display-link-container .display-link span {
-    border: 1px solid #62cbf5;
+    border: 1px solid rgba(255, 255, 0, 0.5);
 }
 
-#index-section-first > div:nth-child(3),#index-section-first > div:nth-child(4),#index-section-first > div:nth-child(5),#index-section-first > div:nth-child(6) {
-    display: none;
-}
-#index-main>section>div:nth-child(3) {
-    display: none;
-}
+
+
 
 
 
@@ -167,7 +189,7 @@ body {
     margin-left: 15%;
 }
 
-.section-three-link img {
+.section-three-link .display-img {
     width: 100%;
     display: block;
     margin-top: 15%;
@@ -175,7 +197,9 @@ body {
     margin-left: auto;
     margin-bottom: 5%;
 }
-
+.section-three-link .arrow-left {
+    padding-right: 2%;
+}
 #index-section-third-article1>div:nth-child(2),
 #index-section-third-article1>div:nth-child(3),
 #index-section-third-article1>div:nth-child(4),
@@ -216,7 +240,7 @@ body {
 .index-footer {
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 4% 0;
     background-color: #232323;
 }
@@ -242,3 +266,20 @@ form {
     display: flex;
     justify-content: space-around;
 }
+
+
+ /* ----------------------------- Custom CSS --------------------------------- */
+
+
+.custom-section-first {
+    background-image: url(../img/menu_2.png);
+}
+#custom-main .navigation a {
+    color: black;
+}
+
+/* ----------------------------- B2B CSS --------------------------------- */
+.b2b-section-first {
+    background-image: url(../img/menu_3.png);
+}
+
