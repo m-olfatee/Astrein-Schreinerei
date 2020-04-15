@@ -216,6 +216,7 @@ body {
 .index-footer {
     display: flex;
     justify-content: space-around;
+    margin-top: 5%;
     padding: 4% 0;
     background-color: #232323;
 }
