@@ -7,7 +7,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 #index-section-first {
-    background-image: url(../img/menu3.png);
+    background-image: url(../img/menu_1.png);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -75,6 +75,6 @@ body {
     border: 1px solid #62cbf5;
 }
 
-#index-main > section > div:nth-child(3){
+#index-section-first > div:nth-child(3),#index-section-first > div:nth-child(4),#index-section-first > div:nth-child(5),#index-section-first > div:nth-child(6) {
     display: none;
 }
