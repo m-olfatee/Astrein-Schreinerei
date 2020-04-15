@@ -13,6 +13,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+#index2-section-first {
+    background-image: url(/assets/img/uberuns.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .navigation {
     display: flex;
     padding: 2% 5%;
@@ -114,9 +121,9 @@ input[type="button"] {
     padding: 4% 11%;
     border: 2px solid #fafafa;
     font-size: 1.4em;
-    margin-left: 12%;
+    margin: 0 12%;
+    text-align: center;
 }
 form {
     display: flex;
-    justify-content: space-around;
 }
