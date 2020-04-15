@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#index-section-first {
+    background-image: url(../img/menu_3.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navigation {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    padding: 0 2vw;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.section-first-link {
+    color: #fafafa;
+    margin: 12% 0 0 40%;
+}
+
+.section-first-link h3 {
+    font-size: 4em;
+    font-family: 'Libre Baskerville';
+}
+
+.section-first-link h3 sup {
+    font-size: 1.2rem;
+}
+
+.section-first-link h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 4em;
+}
+
+.section-first-link a {
+    color: #fafafa;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.section-first-link p {
+    display: flex;
+    align-items: center;
+}
+
+.display-link-container {
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.display-link {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+.display-link-container .display-link span {
+    border: 1px solid #62cbf5;
+}
+
+#index-main>section>div:nth-child(3) {
+    display: none;
+}
+
+
+
+/* -------------------------------- CODE VON JASCHA --------------------------------*/
+
+#index-section-third {
+    height: 50vh;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+}
+
+#index-section-third-article1 {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThreeSlider {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ClassOfPictureSliderPicture {
+    width: 80%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#index-section-third-article2 {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#index-section-third-article2 h2,
+#index-section-third-article2 p {
+    margin: 2% 0;
+}
+
+.SchwarzerButton {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 15%;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    font-size: 0.8em;
+    padding: 1% 1%;
+}
+
+.section-three-link a {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.section-three-link {
+    margin-left: 15%;
+}
+
+.section-three-link img {
+    width: 100%;
+    display: block;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+
+#index-section-third-article1>div:nth-child(2),
+#index-section-third-article1>div:nth-child(3),
+#index-section-third-article1>div:nth-child(4),
+#index-section-third-article1>div:nth-child(5),
+#index-section-third-article1>div:nth-child(6) {
+    display: none;
+}
+
+/* -------------------------------- CODE VON JASCHA --------------------------------*/
