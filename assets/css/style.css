@@ -1,18 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,300&family=Libre+Baskerville:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+/* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------*/
+/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
+/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
+
+h1 {
+    font-size: 4.375rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3.125rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.875rem;
+    font-family: "Libre Baskerville", serif;
+    color: #FAFAFA;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-family: "Libre Baskerville", serif;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 0.75rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+h6 {
+    font-size: 0.5rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+}
+
+a {
+    font-size: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: #FFFFFF
+}
+
+.FarbeGrey {
+    color: #232323;
+}
+
+.FarbeWeiss {
+    color: #FFFFFF
+}
+
+.FarbeWeisslich {
+    color: #FAFAFA;
+}
+
+.SchwarzerButton {
+    font-size: 0.75rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+.BottomFooterDesign {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+}
+
+/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
+/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
+/* ------------------------ ENDE - CODE VON JASCHA - General Design Suggestion -------------------*/
+
 body {
     font-family: "Libre Baskerville", serif;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans",
+        sans-serif;
 }
 
 .hover {
     display: inline-block;
     position: relative;
 }
-.hover::before{
+
+.hover::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -24,6 +115,7 @@ body {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
+
 .hover:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
@@ -35,10 +127,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .index-section-first {
     background-image: url(../img/menu_1.png);
 }
-
 
 .navigation {
     display: flex;
@@ -65,9 +157,11 @@ body {
     text-decoration: none;
     color: #fafafa;
 }
-#section-first > div.section-first-link > p > a:nth-child(1) {
+
+#section-first>div.section-first-link>p>a:nth-child(1) {
     padding-right: 2%;
 }
+
 .section-first-link {
     color: #fafafa;
     margin: 12% 0 0 40%;
@@ -85,6 +179,7 @@ body {
 .section-first-link h2 {
     font-family: "Libre Baskerville", serif;
     font-size: 4em;
+    color: #fafafa;
 }
 
 .section-first-link a {
@@ -116,22 +211,28 @@ body {
     border: 1px solid rgba(255, 255, 0, 0.5);
 }
 
+#index-section-first>div:nth-child(3),
+#index-section-first>div:nth-child(4),
+#index-section-first>div:nth-child(5),
+#index-section-first>div:nth-child(6) {
+    display: none;
+}
 
+#index-main>section>div:nth-child(3) {
+    display: none;
+}
 
-
-
-
-/* -------------------------------- CODE VON JASCHA --------------------------------*/
-
+/* ------------------------ START - CODE VON JASCHA - Styling Section 3 -------------------*/
 #index-section-third {
     height: 50vh;
     width: 100%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     display: flex;
+    margin-bottom: 25%;
 }
 
 #index-section-third-article1 {
-    width: 50%;
+    width: 60%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -147,20 +248,21 @@ body {
 
 #ClassOfPictureSliderPicture {
     width: 80%;
-    height: 100%;
+    height: 80%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #index-section-third-article2 {
-    width: 50%;
+    width: 40%;
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 7.5%;
+    margin-bottom: 5%;
 }
 
 #index-section-third-article2 h2,
@@ -177,6 +279,7 @@ body {
     box-shadow: 5px 5px black;
     font-size: 0.8em;
     padding: 1% 1%;
+    margin-top: 3%;
 }
 
 .section-three-link a {
@@ -197,9 +300,11 @@ body {
     margin-left: auto;
     margin-bottom: 5%;
 }
+
 .section-three-link .arrow-left {
     padding-right: 2%;
 }
+
 #index-section-third-article1>div:nth-child(2),
 #index-section-third-article1>div:nth-child(3),
 #index-section-third-article1>div:nth-child(4),
@@ -208,7 +313,7 @@ body {
     display: none;
 }
 
-/* -------------------------------- CODE VON JASCHA --------------------------------*/
+/* ------------------------ ENDE - CODE VON JASCHA - Styling Section 3 -------------------*/
 #index-main>section>div:nth-child(3) {
     display: none;
 }
@@ -247,6 +352,7 @@ body {
 
 .index-footer h2 {
     color: #fafafa;
+    font-size: 1.9em;
 }
 
 .index-footer h4 {
@@ -256,10 +362,10 @@ body {
 input[type="button"] {
     background-color: #232323;
     color: #fafafa;
-    padding: 4% 11%;
     border: 2px solid #fafafa;
     font-size: 1.4em;
-    margin-left: 12%;
+    margin: 0 15%;
+    padding: 10px 30px;
 }
 
 form {
@@ -267,13 +373,11 @@ form {
     justify-content: space-around;
 }
 
-
- /* ----------------------------- Custom CSS --------------------------------- */
-
-
+/* ----------------------------- Custom CSS --------------------------------- */
 .custom-section-first {
     background-image: url(../img/menu_2.png);
 }
+
 #custom-main .navigation a {
     color: black;
 }
@@ -283,3 +387,223 @@ form {
     background-image: url(../img/menu_3.png);
 }
 
+/* -----------------------------------------überuns css ------------------------ */
+.index2-section-first {
+    background-image: url(/assets/img/uberuns.png);
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: 16.5%; */
+
+}
+
+.index2-section-first>div.section-first-link>p>a:nth-child(1) {
+    padding-right: 2%;
+}
+
+.index2-section-first-text {
+    background-color: #fafafa;
+    display: flex;
+    width: 35%;
+    margin-left: 59%;
+    margin-top: 10.6%;
+    /* margin-bottom: 10%; */
+    padding: 3%;
+}
+
+.index2-section-first-text div {
+    margin-left: 8%;
+    line-height: 130%;
+}
+
+.index2-section-first-text h3 {
+    color: #000;
+    font-size: 1em;
+}
+
+.index2-section-first-text p {
+    color: #000;
+    font-size: 1rem;
+}
+
+.index2-section-zweiter {
+    margin: 15%;
+}
+
+.index2-article-first p {
+    font-size: 1.8em;
+    font-weight: 900;
+    line-height: 35px;
+    margin: 4% 0;
+}
+
+.index2-article-zweiter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index2-article-zweiter div:nth-child(1) {
+    width: 70%;
+    margin-right: 3%;
+}
+
+.index2-article-zweiter div h3 {
+    font-size: 1.3em;
+    margin-bottom: 4%;
+    color: #000;
+}
+
+.index2-article-zweiter div:nth-child(2) {
+    width: 80%;
+}
+
+.index2-article-zweiter div:nth-child(2) p {
+    margin-bottom: 3%;
+}
+
+.index2-section-dreta {
+    display: flex;
+    margin: 15%;
+}
+
+.index2-section-dreta img {
+    height: 500px;
+    width: 350px;
+}
+
+.index2-section-dreta article {
+    width: 50%;
+    margin-right: 18%;
+}
+
+.index2-section-dreta article h2 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 9%;
+}
+
+.index2-section-dreta article p {
+    margin-bottom: 5%;
+    font-size: 1rem;
+}
+
+.index2-section-dreta article h1:nth-child(5) {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+
+.index2-section-dreta article a {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.index2-section-fierta {
+    display: flex;
+}
+
+.index2-section-fierta img {
+    width: 500px;
+    height: 400px;
+    margin-top: 10%;
+}
+
+.index2-section-fierta article {
+    margin-left: 14%;
+}
+
+.index2-section-fierta article h1 {
+    margin-bottom: 18%;
+    font-size: 1.8em;
+}
+
+.index2-section-fierta a {
+    color: #000;
+}
+
+.index2-section-fierta-div {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 4%;
+}
+
+.index2-section-fierta-div div {
+    width: 100%;
+}
+
+.index2-section-fierta-div div h3 {
+    color: #000;
+    font-size: 1.4em;
+    margin-bottom: 15%;
+}
+
+.index2-section-fierta-div div p {
+    font-size: 1em;
+    margin-bottom: 7%;
+}
+
+.index2-section-fienfta {
+    margin: 8% 15%;
+}
+
+.index2-section-fienfta h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+/* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------
+/* ------------------------ Please keep it in the end, then the others will be overwritten. */
+
+/* h1 {
+    font-size: 4.375em;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+h2 {
+    font-size: 3.125em;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.875em;
+    font-family: "Libre Baskerville", serif;
+    color: #fafafa;
+    font-weight: 700;
+}
+h4 {
+    font-size: 1.25em;
+    font-family: "Libre Baskerville", serif;
+    color: #ffffff;
+    font-weight: 700;
+}
+h5 {
+    font-size: 0.75em;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+h6 {
+    font-size: 0.5em;
+}
+p {
+    font-size: 1.25em;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+}
+a {
+    font-size: 1em;
+}
+.SchwarzerButton {
+    font-size: 0.75em;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+.BottomFooterDesign {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.25em;
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid #ffffff;
+} */
