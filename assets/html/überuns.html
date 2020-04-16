@@ -13,46 +13,74 @@
 <body>
 
     <main id="index-main">
-        <section class="index2-section-first">
+        <section id="section-first" class="index-section-first about-first">
             <div class="navigation">
-                <img src="../img/logo_hell.png" alt="" id="logo">
+                <a href="../../index.html"> <img src="../img/Logo_astrein_weiss.svg" alt="" id="logo"></a>
                 <ul>
-                    <li><a href="../../index.html">Home</a></li>
-                    <li><a href="custom.html">Custom</a></li>
-                    <li><a href="b2b.html">B2B</a></li>
-                    <li><a href="b2c.html">B2C</a></li>
-                    <li><a href="überuns.html">Über Uns</a></li>
+                    <li><a href="#" class="hover" onclick="grid(0)">Projekte</a></li>
+                    <li><a href="überuns.html" class="hover">Über Uns</a></li>
+                    <li><a href="#" class="hover">Kontakt</a></li>
                 </ul>
-                <a href="#" id="contact-link">Contact</a>
+                <a href="#" id="contact-link"></a>
             </div>
+
             <div class="section-first-link">
-                <h3>04/ <sup>05</sup></h3>
+                <h3>04/ <sup>04</sup></h3>
                 <h2>Das sind wir</h2>
                 <p>
-                    <a href="../../index.html">
+                    <a href="project-kyto.html">
                         <img src="../img/Arrow 1.svg" alt="">
                     </a>
-                    <a href="b2b.html">
+                    <a href="../../index.html">
                         <img src="../img/Arrow 2.svg" alt="">
                     </a>
-                    <a href="#" class="display-link-container">
+                    <a href="#" class="display-link-container" onclick="grid(0)">
                         <img src="../img/Group 14 Tile Icon.svg" alt="">
                     </a>
                 </p>
             </div>
 
-            <article class="index2-section-first-text">
-                <div>
-                    <h3>Ruben Welinger</h3>
-                    <h5>UX / UI Designer & Maker </h5>
-                    <p>ruben@halloastrein.com</p>
-                </div>
-                <div>
-                    <h3>Thomas Kirchner</h3>
-                    <h5>Dude & Maker </h5>
-                    <p>homas@halloastrein.com</p>
-                </div>
+            <article class="label-tag lable-grid">
+                <h4>Ruben Welinger</h4>
+                <h4>Thomas Kirchner</h4>
+                <p>
+                    UX / UI Designer & Maker <br>
+                    ruben@halloastrein.com
+                </p>
+                <p>
+                    Dude & Maker <br>
+                    homas@halloastrein.com
+                </p>
             </article>
+
+            <section id="section-scroll" class="demo">
+
+                <a href="#about"><span></span>für mehr Infos bitte <br> scrollen ...</a>
+            </section>
+
+            <div id="grid">
+                <a href="../../index.html" class="grid-item grid-home">
+                    <div>
+                        <h3>01/<sup>03</sup></h3>
+                        <h2>Eiche trifft Metall</h2>
+                    </div>
+                </a>
+                <a href="project-ux.html" class="grid-item grid-ux">
+                    <div>
+                        <h3>02/<sup>03</sup></h3>
+                        <h2>Metall trifft Seekiefer</h2>
+                    </div>
+                </a>
+                <a href="project-kyto.html" class="grid-item grid-kyto">
+                    <div>
+                        <h3>03/<sup>03</sup></h3>
+                        <h2>Kyto Coffe Konzept</h2>
+                    </div>
+                </a>
+
+            </div>
+
+
         </section>
         <section class="index2-section-zweiter">
             <article class="index2-article-first">
@@ -68,7 +96,7 @@
                 Netzwerk von Handwerkern verlassen, egal ob Malerarbeiten, Trockenbau oder Schreinerarbeiten. Hinzu
                 kommen junge Second-Hand Möbel Läden & Online Händler.</p>
         </section>
-        <section class="index2-section-fierta">
+        <section id="about" class="index2-section-fierta">
             <article>
                 <h1> Du willst mit uns arbeiten?</h1>
                 <div class="index2-section-fierta-div">
@@ -106,14 +134,14 @@
         </article>
         <article>
             <form action="">
-                <input type="button" value="Contact">
+                <input type="button" value="Kontakt">
                 <input type="button" value="Impressum ">
             </form>
         </article>
     </footer>
 
 
-    <script src="assets/js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

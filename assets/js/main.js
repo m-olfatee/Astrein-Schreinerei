@@ -52,11 +52,10 @@ function left(i) {
 function grid(i) {
     var linkBox = document.getElementsByClassName("section-first-link");
     if (i == 0) {
-
         linkBox.item(i).style.display = "none";
-
         document.getElementById("section-first").style.backgroundImage = "url('')";
         document.getElementById("grid").style.display = "grid";
+        document.getElementById("section-scroll").style.display = "none";
         document.getElementById("logo").src = "/assets/img/logo_astrein.svg";
         document.getElementById("contact-link").style.color = "#000";
         for (let j = 0; j < 5; j++) {
