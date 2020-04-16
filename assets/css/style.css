@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: "Libre Baskerville", serif;
     font-family: "Fira Sans", sans-serif;
 }
+
 #index-section-first {
-    background-image: url(/assets/img/menu_1.png);
+    background-image: url(../img/menu_1.png);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -20,55 +22,168 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.index2-ssection-first-text {
+    background-color: #fafafa;
+    display: flex;
+    width: 35%;
+    margin-left: 59%;
+    margin-top: 15.8%;
+    padding: 3%;
+}
+.index2-ssection-first-text div {
+    margin-left: 8%;
+    line-height: 140%;
+}
+.index2-section-zweiter {
+    margin: 15%;
+}
+.index2-article-first p {
+    font-size: 1.8em;
+    font-weight: 900;
+    line-height: 35px;
+    margin: 4% 0;
+}
+.index2-article-zweiter {
+    display: flex;
+    justify-content: space-around;
+}
+.index2-article-zweiter div:nth-child(1) {
+    width: 70%;
+    margin-right: 3%;
+}
+.index2-article-zweiter div h3 {
+    font-size: 1.3em;
+    margin-bottom: 4%;
+}
+
+.index2-article-zweiter div:nth-child(2) {
+    width: 80%;
+}
+.index2-article-zweiter div:nth-child(2) p {
+    margin-bottom: 3%;
+}
+.index2-section-dreta {
+    display: flex;
+    margin: 15%;
+}
+.index2-section-dreta img {
+    height: 500px;
+    width: 350px;
+}
+.index2-section-dreta article {
+    width: 50%;
+    margin-right: 18%;
+}
+.index2-section-dreta article h2 {
+    font-size: 2.3em;
+    font-weight: 900;
+    margin-bottom: 9%;
+}
+.index2-section-dreta article p {
+    margin-bottom: 5%;
+}
+.index2-section-dreta article h1:nth-child(5) {
+    margin-top: 19%;
+    margin-bottom: 12%;
+}
+.index2-section-dreta article a {
+    color: #000;
+    font-size: 1.5em;
+}
+.index2-section-fierta {
+    display: flex;
+}
+.index2-section-fierta img {
+    width: 500px;
+    height: 400px;
+    margin-top: 10%;
+}
+.index2-section-fierta article {
+    margin-left: 14%;
+}
+.index2-section-fierta h2 {
+    margin-bottom: 18%;
+}
+.index2-section-fierta a {
+    color: #000;
+    font-size: 1.5em;
+}
+.index2-section-fierta-div {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 4%;
+}
+.index2-section-fierta-div div {
+    width: 100%;
+}
+.index2-section-fienfta {
+    margin: 8% 15%;
+}
 .navigation {
     display: flex;
     padding: 2% 5%;
     justify-content: space-between;
     align-items: center;
 }
+
 #logo {
     width: 10%;
     height: 10%;
 }
+
 .navigation ul {
     display: flex;
     list-style: none;
 }
+
 .navigation li {
     padding: 0 2vw;
 }
+
 .navigation a {
     text-decoration: none;
     color: #fafafa;
 }
+
 .section-first-link {
     color: #fafafa;
-    margin: 12% 0 0 40%;
+    margin: 12% 0 0 35%;
 }
+
 .section-first-link h3 {
-    font-size: 4em;
+    font-size: 3em;
     font-family: "Libre Baskerville";
+    position: relative;
 }
+
 .section-first-link h3 sup {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    position: absolute;
+    top: -10%;
+    left: 10%;
 }
+
 .section-first-link h2 {
     font-family: "Libre Baskerville", serif;
     font-size: 4em;
 }
+
 .section-first-link a {
     color: #fafafa;
     font-size: 2em;
     text-decoration: none;
 }
+
 .section-first-link p {
     display: flex;
     align-items: center;
 }
+
 .display-link-container {
     display: inline-block;
     padding-left: 2%;
 }
+
 .display-link {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -77,53 +192,160 @@ body {
     width: 20px;
     background-color: white;
 }
+
 .display-link-container .display-link span {
     border: 1px solid #62cbf5;
 }
 
+#index-section-first > div:nth-child(3),
+#index-section-first > div:nth-child(4),
+#index-section-first > div:nth-child(5),
+#index-section-first > div:nth-child(6) {
+    display: none;
+}
 #index-main > section > div:nth-child(3) {
     display: none;
 }
+
+/* -------------------------------- CODE VON JASCHA --------------------------------*/
+
+#index-section-third {
+    height: 50vh;
+    width: 100%;
+    font-family: "Libre Baskerville", serif;
+    display: flex;
+}
+
+#index-section-third-article1 {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThreeSlider {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ClassOfPictureSliderPicture {
+    width: 80%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#index-section-third-article2 {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#index-section-third-article2 h2,
+#index-section-third-article2 p {
+    margin: 2% 0;
+}
+
+.SchwarzerButton {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 15%;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    font-size: 0.8em;
+    padding: 1% 1%;
+}
+
+.section-three-link a {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.section-three-link {
+    margin-left: 15%;
+}
+
+.section-three-link img {
+    width: 100%;
+    display: block;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+
+#index-section-third-article1 > div:nth-child(2),
+#index-section-third-article1 > div:nth-child(3),
+#index-section-third-article1 > div:nth-child(4),
+#index-section-third-article1 > div:nth-child(5),
+#index-section-third-article1 > div:nth-child(6) {
+    display: none;
+}
+
+/* -------------------------------- CODE VON JASCHA --------------------------------*/
+#index-main > section > div:nth-child(3) {
+    display: none;
+}
+
 /* -------------------------------- section2 ------------------------------------------------------ */
 .index-section-zweiter {
     margin: 8%;
 }
+
 .index-section-zweiter h2 {
     font-size: 2.5em;
     font-weight: 900;
 }
+
 .index-section-zweiter article {
     display: flex;
 }
+
 .index-section-zweiter article p {
     width: 27%;
 }
+
 .index-section-zweiter article p:nth-child(1) {
     margin-left: 25%;
     margin-right: 2%;
 }
+
 /* -------------------------------- footer ------------------------------------------------------ */
 .index-footer {
     display: flex;
     justify-content: space-around;
+    margin-top: 5%;
     padding: 4% 0;
     background-color: #232323;
 }
+
 .index-footer h2 {
     color: #fafafa;
 }
+
 .index-footer h4 {
     color: #fafafa;
 }
+
 input[type="button"] {
     background-color: #232323;
     color: #fafafa;
-    padding: 4% 11%;
     border: 2px solid #fafafa;
     font-size: 1.4em;
-    margin: 0 12%;
-    text-align: center;
+    margin: 0 15%;
+    padding: 10px 30px;
 }
+
 form {
     display: flex;
 }
