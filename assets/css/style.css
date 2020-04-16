@@ -395,7 +395,6 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     /* padding-bottom: 16.5%; */
-
 }
 
 .index2-section-first>div.section-first-link>p>a:nth-child(1) {
@@ -607,3 +606,73 @@ a {
     text-align: center;
     border: 2px solid #ffffff;
 } */
+
+/* ------------------------ Anfang - CODE VON JASCHA - ContactPage -------------------*/
+#HeaderOfContactUs {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2.5% 0;
+}
+
+
+#MainOfContactUs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#SectionLeftOfContactUs {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SectionRightOfContactUs {
+    width: 50%;
+    display: flex;
+    align-self: flex-start;
+
+}
+
+#SectionRightOfContactUs form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+#SectionRightOfContactUs form input {
+    margin: 2% 0;
+    width: 120%;
+    height: 2rem;
+}
+
+#SectionRightOfContactUs form input:last-child {
+    margin: 2% 0;
+    width: 15%;
+    height: 2rem;
+}
+
+#SectionRightOfContactUs form input:nth-of-type(3) {
+    height: 8rem;
+}
+
+
+#SectionRightOfContactUs h4 {
+    color: #232323;
+    margin-bottom: 5%;
+}
+
+#SectionRightOfContactUs form h5:nth-of-type(1) {
+    margin-bottom: 5%;
+}
+
+
+
+
+/* ------------------------ Ende - CODE VON JASCHA - ContactPage -------------------*/
