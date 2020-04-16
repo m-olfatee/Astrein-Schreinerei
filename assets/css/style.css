@@ -108,10 +108,10 @@ body {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 3px;
+    height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #fafafa;
+    background-color: #232323;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .index-section-first {
-    background-image: url(../img/menu_1.png);
+    background-image: url(../img/index.jpg);
 }
 
 .navigation {
@@ -140,8 +140,8 @@ body {
 }
 
 #logo {
-    width: 10%;
-    height: 10%;
+    width: 50%;
+    height: 50%;
 }
 
 .navigation ul {
@@ -150,12 +150,12 @@ body {
 }
 
 .navigation li {
-    padding: 0 2vw;
+    padding: 0 3vw;
 }
 
 .navigation a {
     text-decoration: none;
-    color: #fafafa;
+    color: #232323;
 }
 
 #section-first>div.section-first-link>p>a:nth-child(1) {
@@ -210,6 +210,46 @@ body {
 .display-link-container .display-link span {
     border: 1px solid rgba(255, 255, 0, 0.5);
 }
+
+
+#grid {
+    margin: 12% 2%;
+    display: none;
+    grid-template-columns: repeat(5, 45%);
+    gap: 3%;
+    overflow-x: scroll;
+
+}
+#grid h3 {
+    font-size: 3rem;
+    margin: 20% 0 0 10%;
+}
+#grid h3 sup {
+    font-size: 1rem;
+}
+#grid h2 {
+    font-size: 3rem;
+    margin: 5% 0 0 10%;
+}
+.grid-item {
+    text-decoration: none;
+    color: #fafafa;
+    display: block;
+    height: 50vh;
+    background-image: url(../img/index.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.grid-ux {
+    background-image: url(../img/project_ux.jpg);
+}
+.grid-kyto {
+    background-image: url(../img/project_kyto.jpg);
+}
+
 
 #index-section-first>div:nth-child(3),
 #index-section-first>div:nth-child(4),
@@ -299,6 +339,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 5%;
+    height: 450px;
 }
 
 .section-three-link .arrow-left {
@@ -306,10 +347,7 @@ body {
 }
 
 #index-section-third-article1>div:nth-child(2),
-#index-section-third-article1>div:nth-child(3),
-#index-section-third-article1>div:nth-child(4),
-#index-section-third-article1>div:nth-child(5),
-#index-section-third-article1>div:nth-child(6) {
+#index-section-third-article1>div:nth-child(3) {
     display: none;
 }
 
