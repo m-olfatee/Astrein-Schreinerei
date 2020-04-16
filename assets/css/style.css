@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,300&family=Libre+Baskerville:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -90,9 +92,13 @@ body {
     border: 1px solid #62cbf5;
 }
 
-#index-section-first > div:nth-child(3),#index-section-first > div:nth-child(4),#index-section-first > div:nth-child(5),#index-section-first > div:nth-child(6) {
+#index-section-first>div:nth-child(3),
+#index-section-first>div:nth-child(4),
+#index-section-first>div:nth-child(5),
+#index-section-first>div:nth-child(6) {
     display: none;
 }
+
 #index-main>section>div:nth-child(3) {
     display: none;
 }
@@ -106,6 +112,7 @@ body {
     width: 100%;
     font-family: 'Libre Baskerville', serif;
     display: flex;
+    margin-bottom: 15%;
 }
 
 #index-section-third-article1 {
@@ -139,6 +146,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #index-section-third-article2 h2,
@@ -188,6 +196,15 @@ body {
 #index-main>section>div:nth-child(3) {
     display: none;
 }
+
+
+
+
+
+
+
+
+
 
 /* -------------------------------- section2 ------------------------------------------------------ */
 .index-section-zweiter {
