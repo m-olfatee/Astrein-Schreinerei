@@ -249,10 +249,10 @@ form {
 /* -----------------------------------------überuns css ------------------------ */
 .index2-section-first {
     background-image: url(/assets/img/uberuns.png);
-    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 0;
 }
 .index2-section-first-text {
     background-color: #fafafa;
