@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,300&family=Libre+Baskerville:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,300&family=Libre+Baskerville:wght@400;700&display=swap");
 
 * {
     margin: 0;
@@ -26,14 +26,14 @@ h2 {
 h3 {
     font-size: 1.875rem;
     font-family: "Libre Baskerville", serif;
-    color: #FAFAFA;
+    color: #fafafa;
     font-weight: 700;
 }
 
 h4 {
     font-size: 1.25rem;
     font-family: "Libre Baskerville", serif;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 700;
 }
 
@@ -59,7 +59,7 @@ a {
     font-size: 1rem;
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
-    color: #FFFFFF
+    color: #ffffff;
 }
 
 .FarbeGrey {
@@ -67,11 +67,11 @@ a {
 }
 
 .FarbeWeiss {
-    color: #FFFFFF
+    color: #ffffff;
 }
 
 .FarbeWeisslich {
-    color: #FAFAFA;
+    color: #fafafa;
 }
 
 .SchwarzerButton {
@@ -83,9 +83,9 @@ a {
 .BottomFooterDesign {
     font-family: "Libre Baskerville", serif;
     font-size: 1.25rem;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
 }
 
 /* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
@@ -94,8 +94,7 @@ a {
 
 body {
     font-family: "Libre Baskerville", serif;
-    font-family: "Fira Sans",
-        sans-serif;
+    font-family: "Fira Sans", sans-serif;
 }
 
 .hover {
@@ -427,13 +426,12 @@ form {
 
 /* -----------------------------------------überuns css ------------------------ */
 .index2-section-first {
-    background-image: url(/assets/img/uberuns.png);
+    background-image: url(/assets/img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
     /* height: 100vh; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* padding-bottom: 16.5%; */
-
 }
 
 .index2-section-first>div.section-first-link>p>a:nth-child(1) {
@@ -444,10 +442,10 @@ form {
     background-color: #fafafa;
     display: flex;
     width: 35%;
-    margin-left: 59%;
-    margin-top: 10.6%;
+    margin-left: 60%;
+    margin-top: 12.5%;
     /* margin-bottom: 10%; */
-    padding: 3%;
+    padding: 2.5%;
 }
 
 .index2-section-first-text div {
@@ -466,75 +464,17 @@ form {
 }
 
 .index2-section-zweiter {
-    margin: 15%;
+    margin: 13%;
 }
 
-.index2-article-first p {
-    font-size: 1.8em;
-    font-weight: 900;
-    line-height: 35px;
-    margin: 4% 0;
-}
-
-.index2-article-zweiter {
-    display: flex;
-    justify-content: space-around;
-}
-
-.index2-article-zweiter div:nth-child(1) {
-    width: 70%;
-    margin-right: 3%;
-}
-
-.index2-article-zweiter div h3 {
-    font-size: 1.3em;
-    margin-bottom: 4%;
-    color: #000;
-}
-
-.index2-article-zweiter div:nth-child(2) {
-    width: 80%;
-}
-
-.index2-article-zweiter div:nth-child(2) p {
-    margin-bottom: 3%;
-}
-
-.index2-section-dreta {
-    display: flex;
-    margin: 15%;
-}
-
-.index2-section-dreta img {
-    height: 500px;
-    width: 350px;
-}
-
-.index2-section-dreta article {
-    width: 50%;
-    margin-right: 18%;
-}
-
-.index2-section-dreta article h2 {
-    font-size: 2em;
-    font-weight: 900;
-    margin-bottom: 9%;
-}
-
-.index2-section-dreta article p {
-    margin-bottom: 5%;
-    font-size: 1rem;
-}
-
-.index2-section-dreta article h1:nth-child(5) {
-    margin-top: 10%;
-    margin-bottom: 5%;
+.index2-article-first h2 {
     font-size: 2rem;
 }
 
-.index2-section-dreta article a {
-    color: #000;
-    font-size: 1.5rem;
+.index2-section-zweiter p {
+    font-size: 1rem;
+    margin: 5% 0;
+    width: 104%;
 }
 
 .index2-section-fierta {
@@ -542,32 +482,25 @@ form {
 }
 
 .index2-section-fierta img {
-    width: 500px;
-    height: 400px;
-    margin-top: 10%;
+    width: 551px;
+    height: 565px;
+    margin-right: 6%;
 }
 
 .index2-section-fierta article {
-    margin-left: 14%;
+    margin-left: 13%;
+    margin-right: 2%;
 }
 
 .index2-section-fierta article h1 {
     margin-bottom: 18%;
-    font-size: 1.8em;
-}
-
-.index2-section-fierta a {
-    color: #000;
+    font-size: 2em;
 }
 
 .index2-section-fierta-div {
     display: grid;
-    grid-template-columns: 30% 30%;
-    gap: 4%;
-}
-
-.index2-section-fierta-div div {
-    width: 100%;
+    grid-template-columns: 44% 44%;
+    gap: 2%;
 }
 
 .index2-section-fierta-div div h3 {
@@ -582,7 +515,7 @@ form {
 }
 
 .index2-section-fienfta {
-    margin: 8% 15%;
+    margin: 8% 13%;
 }
 
 .index2-section-fienfta h2 {
@@ -645,3 +578,73 @@ a {
     text-align: center;
     border: 2px solid #ffffff;
 } */
+
+/* ------------------------ Anfang - CODE VON JASCHA - ContactPage -------------------*/
+#HeaderOfContactUs {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2.5% 0;
+}
+
+
+#MainOfContactUs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#SectionLeftOfContactUs {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SectionRightOfContactUs {
+    width: 50%;
+    display: flex;
+    align-self: flex-start;
+
+}
+
+#SectionRightOfContactUs form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+#SectionRightOfContactUs form input {
+    margin: 2% 0;
+    width: 120%;
+    height: 2rem;
+}
+
+#SectionRightOfContactUs form input:last-child {
+    margin: 2% 0;
+    width: 15%;
+    height: 2rem;
+}
+
+#SectionRightOfContactUs form input:nth-of-type(3) {
+    height: 8rem;
+}
+
+
+#SectionRightOfContactUs h4 {
+    color: #232323;
+    margin-bottom: 5%;
+}
+
+#SectionRightOfContactUs form h5:nth-of-type(1) {
+    margin-bottom: 5%;
+}
+
+
+
+
+/* ------------------------ Ende - CODE VON JASCHA - ContactPage -------------------*/
