@@ -5,9 +5,97 @@
     padding: 0;
 }
 
+/* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------*/
+/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
+/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
+
+h1 {
+    font-size: 4.375rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3.125rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.875rem;
+    font-family: "Libre Baskerville", serif;
+    color: #FAFAFA;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-family: "Libre Baskerville", serif;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 0.75rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+h6 {
+    font-size: 0.5rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+}
+
+a {
+    font-size: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: #FFFFFF
+}
+
+.FarbeGrey {
+    color: #232323;
+}
+
+.FarbeWeiss {
+    color: #FFFFFF
+}
+
+.FarbeWeisslich {
+    color: #FAFAFA;
+}
+
+.SchwarzerButton {
+    font-size: 0.75rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+.BottomFooterDesign {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+}
+
+/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
+/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
+/* ------------------------ ENDE - CODE VON JASCHA - General Design Suggestion -------------------*/
+
 body {
     font-family: "Libre Baskerville", serif;
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans",
+        sans-serif;
 }
 
 .hover {
@@ -134,20 +222,18 @@ body {
     display: none;
 }
 
-
-
-/* -------------------------------- CODE VON JASCHA --------------------------------*/
+/* ------------------------ START - CODE VON JASCHA - Styling Section 3 -------------------*/
 
 #index-section-third {
     height: 50vh;
     width: 100%;
     font-family: 'Libre Baskerville', serif;
     display: flex;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
 }
 
 #index-section-third-article1 {
-    width: 50%;
+    width: 60%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -163,20 +249,20 @@ body {
 
 #ClassOfPictureSliderPicture {
     width: 80%;
-    height: 100%;
+    height: 80%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #index-section-third-article2 {
-    width: 50%;
+    width: 40%;
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 7.5%;
     margin-bottom: 5%;
 }
 
@@ -194,6 +280,7 @@ body {
     box-shadow: 5px 5px black;
     font-size: 0.8em;
     padding: 1% 1%;
+    margin-top: 3%;
 }
 
 .section-three-link a {
@@ -227,19 +314,11 @@ body {
     display: none;
 }
 
-/* -------------------------------- CODE VON JASCHA --------------------------------*/
+/* ------------------------ ENDE - CODE VON JASCHA - Styling Section 3 -------------------*/
+
 #index-main>section>div:nth-child(3) {
     display: none;
 }
-
-
-
-
-
-
-
-
-
 
 /* -------------------------------- section2 ------------------------------------------------------ */
 .index-section-zweiter {
