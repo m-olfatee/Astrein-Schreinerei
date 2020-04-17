@@ -58,9 +58,8 @@ function grid(i) {
         document.getElementById("section-scroll").style.display = "none";
         document.getElementById("lable-tag").style.display = "none";
         document.getElementById("logo").src = "/assets/img/logo_astrein.svg";
-        document.getElementById("contact-link").style.color = "#000";
         for (let j = 0; j < 3; j++) {
-            document.getElementsByClassName("hover")[j].style.color = "#000";
+            document.getElementsByClassName("hover")[j].style.color = "#232323";
         }
     }
 }
