@@ -96,3 +96,13 @@ function leftOfSectionThree(i) {
 }
 
 // ------------------------------ CODE VON JASCHA ------------------------------
+// ---------------------- START - CODE VON JASCHA - Ein und Ausblendung von Contact US --------------------
+function ButtonToShowKontakt() {
+    document.getElementById("index-NoVisibleContactSection").style.display = "block"
+    document.getElementById("AllHTML").style.display = "none"
+}
+
+function ButtonToGoBackFromContact() {
+    document.getElementById("AllHTML").style.display = "block"
+}
+// ---------------------- ENDE - CODE VON JASCHA - Ein und Ausblendung von Contact US ---------------------

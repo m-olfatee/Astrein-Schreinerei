@@ -219,17 +219,21 @@ body {
     overflow-x: scroll;
 
 }
+
 #grid h3 {
     font-size: 3rem;
     margin: 20% 0 0 10%;
 }
+
 #grid h3 sup {
     font-size: 1rem;
 }
+
 #grid h2 {
     font-size: 3rem;
     margin: 5% 0 0 10%;
 }
+
 .grid-item {
     text-decoration: none;
     color: #fafafa;
@@ -245,6 +249,7 @@ body {
 .grid-ux {
     background-image: url(../img/project_ux.jpg);
 }
+
 .grid-kyto {
     background-image: url(../img/project_kyto.jpg);
 }
@@ -648,3 +653,10 @@ a {
 
 
 /* ------------------------ Ende - CODE VON JASCHA - ContactPage -------------------*/
+
+/* ------------------------ Start - CODE VON JASCHA - ContactPage ON FRONTPAGE -------------------*/
+#index-NoVisibleContactSection {
+    display: none;
+}
+
+/* ------------------------ Ende - CODE VON JASCHA - ContactPage ON FRONTPAGE -------------------*/
