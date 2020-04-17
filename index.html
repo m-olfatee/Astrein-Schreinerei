@@ -42,6 +42,23 @@
         <main id="index-main">
 
             <section id="section-first" class="index-section-first">
+
+                <article class="nav">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="topnav">
+                        <a href="index.html"> <img src="assets/img/Logo_astrein_weiss.svg" alt="" id="logo1"></a>
+                        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                            &#9776;
+                        </a>
+                    </div>
+                </article>
+
                 <div class="navigation">
                     <a href="index.html"> <img src="assets/img/Logo_astrein_weiss.svg" alt="" id="logo"></a>
                     <ul>
@@ -67,19 +84,18 @@
                     </p>
                 </div>
 
-                <article class="label-tag" id="lable-tag">
-                    <h4>Tisch “Nico”</h4>
-                    <p>
-                        Tischplatte aus Massivholz Eiche 35mm
-                        Tischbeine pulverbeschichtet schwarz
-                    </p>
-                </article>
-
+                <a href="#index-section-third">
+                    <article class="label-tag" id="lable-tag">
+                        <h4>Tisch “Nico”</h4>
+                        <p>
+                            Tischplatte aus Massivholz Eiche 35mm
+                            Tischbeine pulverbeschichtet schwarz
+                        </p>
+                    </article>
+                </a>
                 <section id="section-scroll" class="demo">
-
-                    <a href="#index-section-third"><span></span>für mehr Infos bitte <br> scrollen ...</a>
+                    <a href="#grid-show"><span></span></a>
                 </section>
-
 
                 <div id="grid">
                     <a href="index.html" class="grid-item grid-home">
@@ -97,7 +113,7 @@
                     <a href="assets/html/project-kyto.html" class="grid-item grid-kyto">
                         <div>
                             <h3>03/<sup>03</sup></h3>
-                            <h2>Kyto Coffe Konzept</h2>
+                            <h2>Kyto Coffee Konzept</h2>
                         </div>
                     </a>
 
@@ -116,65 +132,73 @@
 
             <!-- -------------------------------- section2
             ------------------------------------------------------ -->
+            <div id="grid-show">
 
+                <section class="index-section-zweiter">
+                    <h2>Tisch “Nico”<br>
+                        Elleganz und <br>
+                        Leichtigkeit
+                    </h2>
+                    <article>
+                        <p>Minimalismus pur und perfekt in seinen Details - es war uns eine riesige Freude dieses
+                            Highlight
+                            für
+                            und mit unserem Kunden umsetzen zu dürfen.
+                            Die schlichte und schlankgehaltenen Massivholzpaltte aus Eiche in kombination mit den
+                            elgeganten
+                            Metaalfüssen gefertig aus 20mm Rundstahlrohren. DIe Pulverbeschichtung sorgt für eine
+                            moderbne
+                            Optik
+                        </p>
 
-            <section class="index-section-zweiter">
-                <h2>Tisch “Nico”<br>
-                    Elleganz und <br>
-                    Leichtigkeit
-                </h2>
-                <article>
-                    <p>Minimalismus pur und perfekt in seinen Details - es war uns eine riesige Freude dieses Highlight
-                        für
-                        und mit unserem Kunden umsetzen zu dürfen.
-                        Die schlichte und schlankgehaltenen Massivholzpaltte aus Eiche in kombination mit den elgeganten
-                        Metaalfüssen gefertig aus 20mm Rundstahlrohren. DIe Pulverbeschichtung sorgt für eine moderbne
-                        Optik
-                    </p>
-
-                </article>
-            </section>
-            <!-- ----------------------------------------------- CODE VON JASCHA ----------------------------------------------- -->
-            <section id="index-section-third">
-                <article id="index-section-third-article1">
-                    <!-- <div class="sectionThreeSlider">
+                    </article>
+                </section>
+                <!-- ----------------------------------------------- CODE VON JASCHA ----------------------------------------------- -->
+                <section id="index-section-third">
+                    <article id="index-section-third-article1">
+                        <!-- <div class="sectionThreeSlider">
                     <div id="ClassOfPictureSliderPicture"></div>
                 </div> -->
-                    <div class="section-three-link">
-                        <img src="/assets/img/index_slide_1.jpg" alt="" class="display-img">
-                        <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(3)">
-                        <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(2)">
-                    </div>
-                    <div class="section-three-link">
-                        <img src="/assets/img/index_slide_2.jpg" alt="" class="display-img vertical">
-                        <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(1)">
-                        <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(3)">
-                    </div>
-                    <div class="section-three-link">
-                        <img src="/assets/img/index.jpg" alt="" class="display-img">
-                        <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(2)">
-                        <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(1)">
-                    </div>
+                        <div class="section-three-link">
+                            <img src="/assets/img/index_slide_1.jpg" alt="" class="display-img">
+                            <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(3)">
+                            <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right"
+                                onclick="rightOfSectionThree(2)">
+                        </div>
+                        <div class="section-three-link">
+                            <img src="/assets/img/index_slide_2.jpg" alt="" class="display-img vertical">
+                            <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(1)">
+                            <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right"
+                                onclick="rightOfSectionThree(3)">
+                        </div>
+                        <div class="section-three-link">
+                            <img src="/assets/img/index.jpg" alt="" class="display-img">
+                            <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(2)">
+                            <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right"
+                                onclick="rightOfSectionThree(1)">
+                        </div>
 
-                </article>
-                <article id="index-section-third-article2">
-                    <h2>Die Bank zum Tisch</h2>
-                    <p>Passend zum Tisch wurde auf Kundenwunsch eine Bank gefertigt.
-                        Eine dezente Eichenplatte in Kombination mit einer kleinen Ausführung der Tischfüsse. Die
-                        Sitzhöhe
-                        beträgt ca 45 cm
-                    </p>
-                    <p>
-                        <b>
-                            Masse Tisch : 2000 mm x 900 mm<br>
-                            Masse Bank: 1800 mm x 300mm
-                        </b>
-                    </p>
-                </article>
-            </section>
+                    </article>
+                    <article id="index-section-third-article2">
+                        <h2>Die Bank zum Tisch</h2>
+                        <p>Passend zum Tisch wurde auf Kundenwunsch eine Bank gefertigt.
+                            Eine dezente Eichenplatte in Kombination mit einer kleinen Ausführung der Tischfüsse. Die
+                            Sitzhöhe
+                            beträgt ca 45 cm
+                        </p>
+                        <p>
+                            <b>
+                                Masse Tisch : 2000 mm x 900 mm<br>
+                                Masse Bank: 1800 mm x 300mm
+                            </b>
+                        </p>
+                    </article>
+                </section>
+            </div>
+
             <!-- ----------------------------------------------- CODE VON JASCHA ----------------------------------------------- -->
         </main>
-        <footer class="index-footer">
+        <footer class="index-footer" id="footer">
             <article>
                 <h2>astrein</h2>
                 <h4>Ratherstrasse 25, 40235 Düsseldorf</h4>

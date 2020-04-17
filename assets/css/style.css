@@ -132,7 +132,9 @@ body {
 .index-section-first {
     background-image: url(../img/index.jpg);
 }
-
+.about-first {
+    background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
+}
 .navigation {
     display: flex;
     padding: 2% 5%;
@@ -144,6 +146,11 @@ body {
     width: 50%;
     height: 50%;
 }
+#logo1 {
+    width: 50%;
+    height: 50%;
+}
+
 
 .navigation ul {
     display: flex;
@@ -151,12 +158,13 @@ body {
 }
 
 .navigation li {
-    padding: 0 3vw;
+    padding: 0 1.5vw;
 }
 
 .navigation a {
     text-decoration: none;
     color: #232323;
+    font-size: 1rem;
 }
 
 #section-first>div.section-first-link>p>a:nth-child(1) {
@@ -213,8 +221,10 @@ body {
 }
 
 
+ /* -------------------------------------------------  GRID ------------------------------------------ */
+
 #grid {
-    margin: 5% 2%;
+    margin: 5% 0;
     display: none;
     grid-template-columns: repeat(5, 45%);
     gap: 3%;
@@ -241,12 +251,11 @@ body {
     text-decoration: none;
     color: #fafafa;
     display: block;
-    height: 50vh;
+    height: 60vh;
     background-image: url(../img/index.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
 }
 
 .grid-ux {
@@ -256,6 +265,8 @@ body {
     background-image: url(../img/project_kyto.jpg);
 }
 
+ /* ------------------------------------------------- Label Tag ------------------------------------------- */
+
 .label-tag {
     padding: 2% 4% 1% 2%;
     position: absolute;
@@ -264,6 +275,7 @@ body {
     background-color: #fafafa;
     height: 10vh;
     width: 20vw;
+    transition: all 0.5s ease;
 }
 .label-tag h4{
     color: #232323;
@@ -271,6 +283,10 @@ body {
 }
 .label-tag p {
     font-size: 0.9vw;
+}
+.label-tag:hover{
+    box-shadow: 0.66vw 0.66vw black;
+
 }
 #grid-lable-tag{
     right: 2vw;
@@ -287,6 +303,9 @@ body {
 #grid-lable-tag p {
     font-size: 0.8vw;
 }
+
+
+/* --------------------------------------------------- Scroll ------------------------------------------- */
 
 #section-scroll {
     margin-top: 40vh;
@@ -384,12 +403,6 @@ body {
       opacity: 0;
     }
   }
-  
-
-
-
-
-
 #section-scroll::after {
     position: absolute;
     bottom: 0;
@@ -401,16 +414,9 @@ body {
     background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
   }
 
-#index-section-first>div:nth-child(3),
-#index-section-first>div:nth-child(4),
-#index-section-first>div:nth-child(5),
-#index-section-first>div:nth-child(6) {
-    display: none;
-}
 
-#index-main>section>div:nth-child(3) {
-    display: none;
-}
+
+
 
 /* ------------------------ START - CODE VON JASCHA - Styling Section 3 -------------------*/
 #index-section-third {
@@ -484,6 +490,7 @@ body {
 
 .section-three-link .display-img {
     width: 100%;
+    height: 60vh;
     display: block;
     margin-top: 15%;
     margin-right: auto;
@@ -503,9 +510,9 @@ body {
 }
 
 /* ------------------------ ENDE - CODE VON JASCHA - Styling Section 3 -------------------*/
-#index-main>section>div:nth-child(3) {
+/* #index-main>section>div:nth-child(3) {
     display: none;
-}
+} */
 
 /* -------------------------------- section2 ------------------------------------------------------ */
 .index-section-zweiter {
@@ -522,7 +529,7 @@ body {
 }
 
 .index-section-zweiter article p {
-    width: 27%;
+    width: 70%;
 }
 
 .index-section-zweiter article p:nth-child(1) {
@@ -584,7 +591,7 @@ form {
 }
 /* -----------------------------------------überuns css ------------------------ */
 .index2-section-first {
-    background-image: url(/assets/img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
+    background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
     /* height: 100vh; */
     background-position: center;
     background-size: cover;
@@ -817,3 +824,249 @@ a {
 
 /* ------------------------ Ende - CODE VON JASCHA - ContactPage -------------------*/
 
+.index2-section-first {
+    background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: 16.5%; */
+}
+.index2-section-first > div.section-first-link > p > a:nth-child(1) {
+    padding-right: 2%;
+}
+.index2-section-first-text {
+    background-color: #FAFAFA;
+    display: flex;
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 12.5%;
+    /* margin-bottom: 10%; */
+    padding: 2.5%;
+}
+.index2-section-first-text div {
+    margin-left: 8%;
+    line-height: 130%;
+}
+.index2-section-first-text h3 {
+    color: #000;
+    font-size: 1em;
+}
+.index2-section-first-text p {
+    color: #000;
+    font-size: 1rem;
+}
+.index2-section-zweiter {
+    margin: 10%;
+}
+/* .index2-section-zweiter article:nth-child(1) {
+    display: none;
+} */
+.index2-article-first h2 {
+    font-size: 2rem;
+}
+.index2-section-zweiter p {
+    font-size: 1rem;
+    margin: 5% 0;
+    width: 104%;
+}
+.index2-section-fierta {
+    display: flex;
+}
+.index2-section-fierta img {
+    width: 551px;
+    height: 565px;
+    margin-right: 6%;
+}
+.index2-section-fierta article {
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.index2-section-fierta article h1 {
+    margin-bottom: 18%;
+    font-size: 2em;
+}
+.index2-section-fierta-div {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 2%;
+}
+.index2-section-fierta-div div h3 {
+    color: #000;
+    font-size: 1.4em;
+    margin-bottom: 15%;
+}
+.index2-section-fierta-div div p {
+    font-size: 1em;
+    margin-bottom: 7%;
+}
+.index2-section-fienfta {
+    margin: 8% 13%;
+}
+.index2-section-fienfta h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+.lable-grid {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    gap: 10%;
+    width: 30vw;
+    height: 10vh;
+    bottom: 0;
+}
+.about-first {
+    background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
+}
+#index-main .about-first .navigation a {
+    color: #FAFAFA;
+}
+#index-main .about-first .navigation .hover::before {
+    background-color: #FAFAFA;
+}
+.nav {
+    display: none;
+}
+/* ----------------------------------------überuns css hende ------------------------ */
+@media (max-width: 468px) {
+    .navigation ul {
+        display: none;
+    }
+    .navigation a {
+        display: none;
+    }
+    .nav {
+        display: block;
+    }
+    #section-scroll {
+        display: none;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align: center;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 35px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover,
+    .sidenav a:focus {
+        color: #F1F1F1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .topnav {
+        overflow: hidden;
+        position: relative;
+    }
+    #logo {
+        width: 35%;
+    }
+    .topnav a {
+        float: left;
+        color: #FAFAFA;
+        padding: 1px 8px;
+        text-decoration: none;
+        font-size: 40px;
+    }
+    .topnav a.icon {
+        float: right;
+    }
+    .section-first-link {
+        margin-left: 5%;
+        margin-top: 35%;
+    }
+    .section-first-link h3 {
+        font-size: 1.5em;
+    }
+    .index2-section-fierta {
+        display: block;
+    }
+    .index2-section-first-text {
+        display: none;
+    }
+    .index2-section-zweiter article:nth-child(1) {
+        display: block;
+        margin: 10% 2%;
+    }
+    .index2-section-zweiter article:nth-child(1) h2 {
+        font-size: 1.4em;
+    }
+    .index2-section-fierta img {
+        width: 351px;
+        height: 365px;
+        margin: 5%;
+    }
+    .index2-section-fierta article h1 {
+        margin-bottom: 18%;
+        font-size: 2em;
+    }
+    .lable-grid {
+        display: none;
+    }
+    .index2-section-fierta-div {
+        display: grid;
+        grid-template-columns: 90%;
+        margin: 5%;
+    }
+    .index2-article-first h2 {
+        font-size: 1.5rem;
+    }
+    .index2-section-fienfta {
+        margin: 8% 4%;
+    }
+    .index2-section-fienfta h2 {
+        font-size: 1em;
+        font-weight: 900;
+    }
+    .index-footer article {
+        margin-left: 3%;
+    }
+    .index-footer h2 {
+        color: #FAFAFA;
+        font-size: 27px;
+        margin-top: 8%;
+    }
+    .index-footer h4 {
+        color: #FAFAFA;
+        font-size: 18px;
+    }
+    input[type=“button”]:nth-child(1) {
+        background-color: #232323;
+        color: #FAFAFA;
+        border: 2px solid #FAFAFA;
+        font-size: 1em;
+        margin: 4% 0;
+        padding: 10px 23px;
+    }
+    input[type=“button”]:nth-child(2) {
+        background-color: #232323;
+        color: #FAFAFA;
+        border: 2px solid #FAFAFA;
+        font-size: 1em;
+        margin: 4% 0;
+        padding: 10px 10px;
+    }
+     form {
+        display: block;
+        text-align: center;
+    } 
+}

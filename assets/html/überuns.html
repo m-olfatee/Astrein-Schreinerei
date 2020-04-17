@@ -41,6 +41,23 @@
 
         <main id="index-main">
             <section id="section-first" class="index-section-first about-first">
+
+                <article class="nav">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="topnav">
+                        <a href="../../index.html"> <img src="../img/Logo_astrein_weiss.svg" alt="" id="logo1"></a>
+                        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                            &#9776;
+                        </a>
+                    </div>
+                </article>
+
                 <div class="navigation">
                     <a href="../../index.html"> <img src="../img/Logo_astrein_weiss.svg" alt="" id="logo"></a>
                     <ul>
@@ -65,23 +82,24 @@
                         </a>
                     </p>
                 </div>
-
-                <article class="label-tag lable-grid" id="lable-tag">
-                    <h4>Ruben Welinger</h4>
-                    <h4>Thomas Kirchner</h4>
-                    <p>
-                        UX / UI Designer & Maker <br>
-                        ruben@halloastrein.com
-                    </p>
-                    <p>
-                        Dude & Maker <br>
-                        homas@halloastrein.com
-                    </p>
-                </article>
+                <a href="#about">
+                    <article class="label-tag lable-grid" id="lable-tag">
+                        <h4>Ruben Welinger</h4>
+                        <h4>Thomas Kirchner</h4>
+                        <p>
+                            UX / UI Designer & Maker <br>
+                            ruben@halloastrein.com
+                        </p>
+                        <p>
+                            Dude & Maker <br>
+                            homas@halloastrein.com
+                        </p>
+                    </article>
+                </a>
 
                 <section id="section-scroll" class="demo">
 
-                    <a href="#about"><span></span>für mehr Infos bitte <br> scrollen ...</a>
+                    <a href="#index2-section-zweiter"><span></span></a>
                 </section>
 
                 <div id="grid">
@@ -100,7 +118,7 @@
                     <a href="project-kyto.html" class="grid-item grid-kyto">
                         <div>
                             <h3>03/<sup>03</sup></h3>
-                            <h2>Kyto Coffe Konzept</h2>
+                            <h2>Kyto Coffee Konzept</h2>
                         </div>
                     </a>
                     <article class="label-tag" id="grid-lable-tag">
@@ -115,56 +133,73 @@
                 </div>
 
             </section>
-            <section class="index2-section-zweiter">
-                <article class="index2-article-first">
-                    <h2>Erfahrung, auf die Sie bauen können. Mit Anspruch wohen. Urban | Minimalistisch | Skandinavisch
-                    </h2>
-                </article>
-                <p>Wir sind Thomas und Ruben und würden dir gerne dabei helfen, deine nächste Wohnung oder Büro
-                    geschmackvoll und kosteneffizient einzurichten. Mit 16 Jahren begann unsere Laufbahn mit einer
-                    Schreinerausbildung. Danach folgten 3 Jahre als technische Zeichner sowie fast 10 Jahre
-                    Projektleitung
-                    im Bereich Innenausbau für Generalunternehmer & Architekturbüros. In den letzten 3 Jahre konnten wir
-                    unsere Leidenschaft für moderne, minimalistisch-skandinavische Innenarchitektur in einer Vielzahl
-                    von
-                    Projekten einfließen lassen. Dabei profitieren unsere Kunden aus einem budgetorientierten Stilmix
-                    zwischen Einzelanfertigungen, Design Classics & DIY Lösungen. Dabei kann ich mich auf ein
-                    zuverlässiges
-                    Netzwerk von Handwerkern verlassen, egal ob Malerarbeiten, Trockenbau oder Schreinerarbeiten. Hinzu
-                    kommen junge Second-Hand Möbel Läden & Online Händler.</p>
-            </section>
-            <section id="about" class="index2-section-fierta">
-                <article>
-                    <h1> Du willst mit uns arbeiten?</h1>
-                    <div class="index2-section-fierta-div">
-                        <div>
-                            <h3>01 – Briefing </h3>
-                            <p>Du schickst mir ein kurzes Briefing. Was brauchst du? </p>
+
+            <div id="grid-show">
+
+                <section class="index2-section-zweiter">
+                    <article class="index2-article-first">
+                        <h2>Erfahrung, auf die Sie bauen können. Mit Anspruch wohen. Urban | Minimalistisch |
+                            Skandinavisch
+                        </h2>
+                    </article>
+                    <p>Wir sind Thomas und Ruben und würden dir gerne dabei helfen, deine nächste Wohnung oder Büro
+                        geschmackvoll und kosteneffizient einzurichten. Mit 16 Jahren begann unsere Laufbahn mit
+                        einer
+                        Schreinerausbildung. Danach folgten 3 Jahre als technische Zeichner sowie fast 10 Jahre
+                        Projektleitung
+                        im Bereich Innenausbau für Generalunternehmer & Architekturbüros. In den letzten 3 Jahre
+                        konnten
+                        wir
+                        unsere Leidenschaft für moderne, minimalistisch-skandinavische Innenarchitektur in einer
+                        Vielzahl
+                        von
+                        Projekten einfließen lassen. Dabei profitieren unsere Kunden aus einem budgetorientierten
+                        Stilmix
+                        zwischen Einzelanfertigungen, Design Classics & DIY Lösungen. Dabei kann ich mich auf ein
+                        zuverlässiges
+                        Netzwerk von Handwerkern verlassen, egal ob Malerarbeiten, Trockenbau oder
+                        Schreinerarbeiten.
+                        Hinzu
+                        kommen junge Second-Hand Möbel Läden & Online Händler.</p>
+                </section>
+                <section id="about" class="index2-section-fierta">
+                    <article>
+                        <h1> Du willst mit uns arbeiten?</h1>
+                        <div class="index2-section-fierta-div">
+                            <div>
+                                <h3>01 – Briefing </h3>
+                                <p>Du schickst mir ein kurzes Briefing. Was brauchst du? </p>
+                            </div>
+                            <div>
+                                <h3>02 – Kosten</h3>
+                                <p>Ich erstelle dir ein kostenloses Angebot. Wenn es sich um ein Einzelmöbel oder
+                                    eine
+                                    Küche
+                                    handelt als konkretes Angebot.</p>
+                            </div>
+                            <div>
+                                <h3>03 – Planung</h3>
+                                <p>Auf Basis deines Aufmasses erstelle ich eine 2D Einrichtungsplanung mit
+                                    Mood-Bildern
+                                    ("Look&Feel Konzept").</p>
+                            </div>
+                            <div>
+                                <h3>04 – Fertigung </h3>
+                                <p>Durch 15 Jahre Berufserfahrung im Bereich Innenausbau steht mir ein großes
+                                    Netzwerk
+                                    an
+                                    zuverlässigen Handwerkern und Lieferanten zur Verfügung.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h3>02 – Kosten</h3>
-                            <p>Ich erstelle dir ein kostenloses Angebot. Wenn es sich um ein Einzelmöbel oder eine Küche
-                                handelt als konkretes Angebot.</p>
-                        </div>
-                        <div>
-                            <h3>03 – Planung</h3>
-                            <p>Auf Basis deines Aufmasses erstelle ich eine 2D Einrichtungsplanung mit Mood-Bildern
-                                ("Look&Feel Konzept").</p>
-                        </div>
-                        <div>
-                            <h3>04 – Fertigung </h3>
-                            <p>Durch 15 Jahre Berufserfahrung im Bereich Innenausbau steht mir ein großes Netzwerk an
-                                zuverlässigen Handwerkern und Lieferanten zur Verfügung.</p>
-                        </div>
-                    </div>
-                </article>
-                <img src="../img/335DC31A-0E5F-423B-8B6F-1EA2AE6C31FA.JPG" alt="">
-            </section>
-            <section class="index2-section-fienfta">
-                <h2> Wir machen Möbel zum Entspannen und Arbeiten – <br>  für Zuhause oder fürs Büro.</h2>
-            </section>
+                    </article>
+                    <img src="../img/335DC31A-0E5F-423B-8B6F-1EA2AE6C31FA.JPG" alt="">
+                </section>
+                <section class="index2-section-fienfta">
+                    <h2> Wir machen Möbel zum Entspannen und Arbeiten – <br>  für Zuhause oder fürs Büro.</h2>
+                </section>
+            </div>
         </main>
-        <footer class="index-footer">
+        <footer class="index-footer" id="footer">
             <article>
                 <h2>astrein</h2>
                 <h4>Ratherstrasse 25, 40235 Düsseldorf</h4>
