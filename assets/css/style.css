@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 /* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------*/
 /* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
 /* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
@@ -221,22 +223,26 @@ body {
     overflow-x: scroll;
 
 }
+
 #grid h3 {
     font-size: 3rem;
     margin: 20% 0 0 10%;
     color: #fafafa;
 }
+
 #grid h3 sup {
     font-size: 1rem;
     color: #fafafa;
 
 }
+
 #grid h2 {
     font-size: 3rem;
     margin: 2% 0 0 10%;
     color: #fafafa;
 
 }
+
 .grid-item {
     text-decoration: none;
     color: #fafafa;
@@ -252,6 +258,7 @@ body {
 .grid-ux {
     background-image: url(../img/project_ux.jpg);
 }
+
 .grid-kyto {
     background-image: url(../img/project_kyto.jpg);
 }
@@ -265,14 +272,17 @@ body {
     height: 10vh;
     width: 20vw;
 }
-.label-tag h4{
+
+.label-tag h4 {
     color: #232323;
     font-size: 1.5vw;
 }
+
 .label-tag p {
     font-size: 0.9vw;
 }
-#grid-lable-tag{
+
+#grid-lable-tag {
     right: 2vw;
     border: 2px solid black;
     box-shadow: 2vw 2vw black;
@@ -280,10 +290,12 @@ body {
     height: 15vh;
     bottom: 3vh;
 }
+
 #grid-lable-tag h4 {
     font-size: 1.2vw;
     padding-bottom: 2%;
 }
+
 #grid-lable-tag p {
     font-size: 0.8vw;
 }
@@ -292,8 +304,9 @@ body {
     margin-top: 40vh;
     position: relative;
     width: 100%;
-  }
-  .demo a {
+}
+
+.demo a {
     position: absolute;
     bottom: 0;
     left: 45%;
@@ -302,19 +315,21 @@ body {
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     color: #fff;
-    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    font: normal 400 20px/1 'Josefin Sans', sans-serif;
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s;
-  }
-  .demo a:hover {
+}
+
+.demo a:hover {
     opacity: .7;
-  }
-  
-  #section-scroll a {
+}
+
+#section-scroll a {
     padding-top: 60px;
-  }
-  #section-scroll a span {
+}
+
+#section-scroll a span {
     position: absolute;
     top: 0;
     left: 50%;
@@ -324,8 +339,9 @@ body {
     border: 1px solid #fff;
     border-radius: 100%;
     box-sizing: border-box;
-  }
-  #section-scroll a span::after {
+}
+
+#section-scroll a span::after {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -338,8 +354,9 @@ body {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
-  }
-  #section-scroll a span::before {
+}
+
+#section-scroll a span::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -347,44 +364,52 @@ body {
     content: '';
     width: 44px;
     height: 44px;
-    box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, .1);
     border-radius: 100%;
     opacity: 0;
     -webkit-animation: sdb03 3s infinite;
     animation: sdb03 3s infinite;
     box-sizing: border-box;
-  }
-  @-webkit-keyframes sdb03 {
+}
+
+@-webkit-keyframes sdb03 {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     30% {
-      opacity: 1;
+        opacity: 1;
     }
+
     60% {
-      box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-      opacity: 0;
+        box-shadow: 0 0 0 60px rgba(255, 255, 255, .1);
+        opacity: 0;
     }
+
     100% {
-      opacity: 0;
+        opacity: 0;
     }
-  }
-  @keyframes sdb03 {
+}
+
+@keyframes sdb03 {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     30% {
-      opacity: 1;
+        opacity: 1;
     }
+
     60% {
-      box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-      opacity: 0;
+        box-shadow: 0 0 0 60px rgba(255, 255, 255, .1);
+        opacity: 0;
     }
+
     100% {
-      opacity: 0;
+        opacity: 0;
     }
-  }
-  
+}
+
 
 
 
@@ -397,9 +422,9 @@ body {
     content: '';
     width: 100%;
     height: 80%;
-    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
-    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
-  }
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
+}
 
 #index-section-first>div:nth-child(3),
 #index-section-first>div:nth-child(4),
@@ -490,9 +515,11 @@ body {
     margin-left: auto;
     margin-bottom: 5%;
 }
+
 .section-three-link .vertical {
     width: 40%;
 }
+
 .section-three-link .arrow-left {
     padding-right: 2%;
 }
@@ -555,6 +582,16 @@ input[type="button"] {
     font-size: 1.4em;
     margin: 0 15%;
     padding: 10px 30px;
+}
+
+input[type="button"]:hover {
+    background-color: #232323;
+    color: #fafafa;
+    border: 2px solid #fafafa;
+    font-size: 1.4em;
+    margin: 0 15%;
+    padding: 10px 30px;
+    box-shadow: 5px 5px #fafafa;
 }
 
 form {
@@ -683,18 +720,21 @@ form {
     height: 10vh;
     bottom: 0;
 }
+
 .about-first {
-    background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg); 
+    background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
 }
 
 #index-main .about-first .navigation a {
     color: #fafafa;
 }
+
 #index-main .about-first .navigation .hover::before {
-    
+
     background-color: #fafafa;
-   
+
 }
+
 /* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------
 /* ------------------------ Please keep it in the end, then the others will be overwritten. */
 
@@ -760,6 +800,7 @@ a {
     justify-content: flex-end;
     margin: 2.5% 0;
 }
+
 #MainOfContactUs {
     width: 100%;
     display: flex;
@@ -767,47 +808,382 @@ a {
     align-items: center;
     margin-top: 5%;
 }
+
 #SectionLeftOfContactUs {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #SectionRightOfContactUs {
     width: 50%;
     display: flex;
     align-self: flex-start;
 }
+
 #SectionRightOfContactUs form {
     display: flex;
     flex-direction: column;
     margin-left: 5%;
 }
+
 #SectionRightOfContactUs form input {
     margin: 2% 0;
     width: 120%;
     height: 2rem;
 }
+
 #SectionRightOfContactUs form input:last-child {
     margin: 2% 0;
     width: 15%;
     height: 2rem;
 }
+
 #SectionRightOfContactUs form input:nth-of-type(3) {
     height: 8rem;
 }
+
 #SectionRightOfContactUs h4 {
     color: #232323;
     margin-bottom: 5%;
 }
+
 #SectionRightOfContactUs form h5:nth-of-type(1) {
     margin-bottom: 5%;
 }
+
 #index-NoVisibleContactSection {
     display: none;
 }
 
-
-
 /* ------------------------ Ende - CODE VON JASCHA - ContactPage -------------------*/
 
+/* ------------------------ Anfang - CODE VON JASCHA - Media Querries -------------------*/
+@media (max-width: 479px) {
+
+    /* ------------------------ MAIN SECTION 1 ------------------------ */
+    #logo {
+        display: flex;
+        height: 50px;
+    }
+
+    #section-first>div.navigation>ul>li>a {
+        display: none;
+    }
+
+    #section-first {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #section-first h1 {
+        font-size: 2.19rem;
+    }
+
+    #section-first h2 {
+        font-size: 1.56rem;
+    }
+
+    #section-first h3 {
+        font-size: 0.95rem;
+    }
+
+    #section-first h4 {
+        font-size: 0.95rem;
+    }
+
+    #section-first h5 {
+        font-size: 0.95rem;
+    }
+
+    #section-first h6 {
+        font-size: 0.95rem;
+    }
+
+    #section-first p {
+        font-size: 0.95rem;
+    }
+
+    #section-first a {
+        font-size: 0.95rem;
+    }
+
+    #section-first a {
+        font-size: 0.95rem;
+    }
+
+    #section-scroll {
+        margin-right: 35%;
+    }
+
+    #lable-tag {
+        margin-bottom: 50%;
+        width: 80%;
+        margin-right: 7%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    #section-first>div.section-first-link {
+        margin-right: 15%;
+    }
+
+    /* ------------------------ MAIN SECTION 1 ------------------------ */
+    /* ------------------------ MAIN SECTION 2 ------------------------ */
+
+    #index-main>section.index-section-zweiter {
+        display: block;
+    }
+
+    #index-main>section.index-section-zweiter h2 {
+        font-size: 1.56rem;
+        width: 80%;
+    }
+
+    #index-main>section.index-section-zweiter>article>p {
+        font-size: 0.95rem;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    /* ------------------------ MAIN SECTION 2 ------------------------ */
+    /* ------------------------ MAIN SECTION 3 ------------------------ */
+    #index-section-third {
+        height: 100vh;
+        display: block;
+    }
+
+    #index-section-third-article2>h2 {
+        font-size: 1.56rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 400px;
+    }
+
+
+    #index-section-third-article2>p:nth-child(2) {
+        font-size: 0.95rem;
+        display: block;
+        width: 400px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    #index-section-third-article1>div:nth-child(1)>img.display-img {
+        width: 350px;
+        padding: 0 auto;
+    }
+
+    #index-section-third-article2>p:nth-child(3) {
+        font-size: 0.95rem;
+        display: block;
+        width: 350px;
+    }
+
+    #index-section-third {
+        height: 45vh;
+    }
+
+    #index-section-third-article1 {
+        height: 25vh;
+    }
+
+    #index-section-third-article2>p:nth-child(2) {
+        width: 350px;
+    }
+
+    /* ------------------------ MAIN SECTION 3 ------------------------ */
+    /* ------------------------ MAIN Footer ------------------------ */
+
+    .index-footer {
+        margin-top: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ALLHTML>footer>article:nth-child(2)>form {
+        width: 80%;
+        margin-bottom: 0.5vh;
+    }
+
+    #ALLHTML>footer>article:nth-child(1) {
+        width: 80%;
+        display: block;
+        margin-bottom: 3.5%
+    }
+
+    #ALLHTML>footer>article:nth-child(2)>form>input[type=button]:nth-child(1) {
+        margin: 0;
+        padding: 3.5% 10px;
+        margin-right: 5%;
+    }
+
+    #ALLHTML>footer>article:nth-child(2)>form>input[type=button]:nth-child(2) {
+        margin: 0;
+        padding: 3.5% 10px;
+        margin-left: 5%;
+    }
+
+    /* ------------------------ MAIN Footer ------------------------ */
+    /* ------------------------ ContactUS------------------------ */
+    #MainOfContactUs {
+        flex-direction: column;
+    }
+
+    #SectionLeftOfContactUs {
+        width: 100%;
+    }
+
+    #SectionLeftOfContactUs img {
+        width: 100%;
+    }
+
+    #ContactUsInputName {
+        border: 1px solid #232323;
+    }
+
+    #ContactUsInputMail {
+        border: 1px solid #232323;
+    }
+
+    #ContactUsInputMessage {
+        border: 1px solid #232323;
+    }
+
+    #SectionRightOfContactUs>form>input.SchwarzerButton {
+        width: 80%;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        background-color: white;
+        padding: 1% 40px;
+        text-align: center;
+    }
+
+    #SectionRightOfContactUs>form>input.SchwarzerButton:hover {
+        width: 80%;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        box-shadow: 5px 5px black;
+        background-color: white;
+        padding: 1% 40px;
+        text-align: center;
+    }
+
+    #SectionRightOfContactUs>form>h4 {
+        margin-top: 3.5%;
+    }
+
+    /* ------------------------ ContactUS------------------------ */
+    /* ------------------------ ProjektSeite Section 1------------------------ */
+    #section-first {
+        height: 100vh;
+    }
+
+    #grid {
+        height: 90vh;
+        grid-template-columns: repeat(3, 75%);
+        grid-template-rows: 75%;
+    }
+
+    #grid a {
+        height: 80vh;
+    }
+
+    #grid-lable-tag {
+        width: 88%;
+        right: 1vw;
+    }
+
+    /* ------------------------ ProjektSeite Section 1------------------------ */
+}
+
+
+
+/* ------------------------ Ende - CODE VON JASCHA - Media Querries -------------------*/
+/* ------------------------ Anfang - CODE VON JASCHA - Animation MAIN SECTION 1 -------------------*/
+
+/* ------------------------ Anfang ANIMATION Zahlen ------------------------  */
+.section-first-link h3 {
+    position: relative;
+    animation-direction: alternate;
+    animation: TypeWriterPloppH3 1.5s 1;
+}
+
+@keyframes TypeWriterPloppH3 {
+    from {
+        opacity: 0.3;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* ------------------------ Ende ANIMATION Zahlen ------------------------  */
+/* ------------------------ Anfang ANIMATION Zahlen MiniZahl SUP ------------------------  */
+.section-first-link h3 sup {
+    position: relative;
+    animation-direction: alternate;
+    animation: TypeWriterPloppH3Sup 3s 1;
+}
+
+@keyframes TypeWriterPloppH3Sup {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -300%, 0);
+        transform: translate3d(0, -300%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* ------------------------ Ende ANIMATION Zahlen MiniZahl SUP ------------------------  */
+
+/* ------------------------ Anfang ANIMATION Vom Text ------------------------  */
+
+.section-first-link h2 {
+    position: relative;
+    animation-direction: alternate;
+    animation: TypeWriterPloppH2 1.5s 1;
+}
+
+@keyframes TypeWriterPloppH2 {
+    from {
+        opacity: 0.3;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* ------------------------ Ende ANIMATION Vom Text ------------------------  */
+
+
+
+
+/* ------------------------ Ende - CODE VON JASCHA - Animation MAIN SECTION 1 -------------------*/
