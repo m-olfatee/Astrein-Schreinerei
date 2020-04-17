@@ -95,4 +95,15 @@ function leftOfSectionThree(i) {
     }
 }
 
+
+
+function ButtonToShowKontakt() {
+    document.getElementById("index-NoVisibleContactSection").style.display = "block"
+    document.getElementById("ALLHTML").style.display = "none"
+}
+function ButtonToGoBackFromContact() {
+    document.getElementById("ALLHTML").style.display = "block"
+    document.getElementById("index-NoVisibleContactSection").style.display = "none"
+}
+
 // ------------------------------ CODE VON JASCHA ------------------------------

@@ -12,216 +12,183 @@
 
 <body>
 
-    <main id="index-main">
-
-        <section id="section-first" class="index-section-first">
-            <div class="navigation">
-                <a href="index.html"> <img src="assets/img/Logo_astrein_weiss.svg" alt="" id="logo"></a>
-                <ul>
-                    <li><a href="#" class="hover" onclick="grid(0)">Projekte</a></li>
-                    <li><a href="assets/html/überuns.html" class="hover">Über Uns</a></li>
-                    <li><a href="#" class="hover">Kontakt</a></li>
-                </ul>
-                <a href="#" id="contact-link"></a>
-            </div>
-
-            <div class="section-first-link">
-                <h3>01/ <sup>04</sup></h3>
-                <h2>Eiche trifft Metall</h2>
-                <p>
-                    <a href="assets/html/überuns.html">
-                        <img src="assets/img/Arrow 1.svg" alt="">
-                    </a>
-                    <a href="assets/html/project-ux.html">
-                        <img src="assets/img/Arrow 2.svg" alt="">
-                    </a>
-                    <a href="#" class="display-link-container" onclick="grid(0)">
-                        <img src="assets/img/Group 14 Tile Icon.svg" alt="">
-                    </a>
-                </p>
-            </div>
-
-            <article class="label-tag" id="lable-tag">
-                <h4>Tisch “Nico”</h4>
-                <p>
-                    Tischplatte aus Massivholz Eiche 35mm
-                    Tischbeine pulverbeschichtet schwarz
-                </p>
-            </article>
-
-            <section id="section-scroll" class="demo">
-
-                <a href="#index-section-third"><span></span>für mehr Infos bitte <br> scrollen ...</a>
+    <section id="index-NoVisibleContactSection">
+        <section id="HeaderOfContactUs">
+            <a onclick="ButtonToGoBackFromContact()" href="#"><img src="/assets/img/ContactUsBackButton.svg"
+                    alt="" /></a>
+        </section>
+        <section id="MainOfContactUs">
+            <section id="SectionLeftOfContactUs">
+                <img src="/assets/img/ContactBildWood.jpg" width="75%" alt="">
             </section>
+            <section id="SectionRightOfContactUs">
+                <form action="">
+                    <h4>EINRICHTUNGSBERATUNG & UMSETZUNG</h4>
+                    <h5>DIGITAL INTERIOR CONSULTING</h5>
+                    <h5><b>Ihr Name</b></h5>
+                    <input type="text" name="" id="ContactUsInputName">
+                    <h5><b>Ihre E-Mail</b></h5>
+                    <input type="text" name="" id="ContactUsInputMail">
+                    <h5><b>Ihre Nachricht</b></h5>
+                    <input type="text" name="" id="ContactUsInputMessage">
+                    <input type="submit" value="Senden" class="SchwarzerButton" onclick="ButtonToGoBackFromContact()">
+                </form>
+            </section>
+        </section>
+    </section>
 
+    <div id="ALLHTML">
 
-            <div id="grid">
-                <a href="index.html" class="grid-item grid-home">
-                    <div>
-                        <h3>01/<sup>03</sup></h3>
-                        <h2>Eiche trifft Metall</h2>
-                    </div>
-                </a>
-                <a href="assets/html/project-ux.html" class="grid-item grid-ux">
-                    <div>
-                        <h3>02/<sup>03</sup></h3>
-                        <h2>Metall trifft Seekiefer</h2>
-                    </div>
-                </a>
-                <a href="assets/html/project-kyto.html" class="grid-item grid-kyto">
-                    <div>
-                        <h3>03/<sup>03</sup></h3>
-                        <h2>Kyto Coffe Konzept</h2>
-                    </div>
-                </a>
+        <main id="index-main">
 
-                <article class="label-tag" id="grid-lable-tag">
-                    <h4>URBAN | MINIMALISTISCH <br>
-                        | SKANDINAVISCH</h4>
+            <section id="section-first" class="index-section-first">
+                <div class="navigation">
+                    <a href="index.html"> <img src="assets/img/Logo_astrein_weiss.svg" alt="" id="logo"></a>
+                    <ul>
+                        <li><a href="#" class="hover" onclick="grid(0)">Projekte</a></li>
+                        <li><a href="assets/html/überuns.html" class="hover">Über Uns</a></li>
+                        <li><a href="#" onclick="ButtonToShowKontakt()" class="hover">Kontakt</a></li>
+                    </ul>
+                    <a href="#" id="contact-link"></a>
+                </div>
+
+                <div class="section-first-link">
+                    <h3>01/ <sup>04</sup></h3>
+                    <h2>Eiche trifft Metall</h2>
                     <p>
-                        Ein Einzelmöbel, eine Küche, diverse <br>
-                        Handwerkerleistungen, eine komplette Grundrissplanung <br>
-                        oder einfach einen guten Rat?
+                        <a href="assets/html/überuns.html">
+                            <img src="assets/img/Arrow 1.svg" alt="">
+                        </a>
+                        <a href="assets/html/project-ux.html">
+                            <img src="assets/img/Arrow 2.svg" alt="">
+                        </a>
+                        <a href="#" class="display-link-container" onclick="grid(0)">
+                            <img src="assets/img/Group 14 Tile Icon.svg" alt="">
+                        </a>
+                    </p>
+                </div>
+
+                <article class="label-tag" id="lable-tag">
+                    <h4>Tisch “Nico”</h4>
+                    <p>
+                        Tischplatte aus Massivholz Eiche 35mm
+                        Tischbeine pulverbeschichtet schwarz
                     </p>
                 </article>
-            </div>
-            <!-- <div class="section-first-link">
-                <h3>02/ <sup>05</sup></h3>
-                <h2>Hier stehen Worte 2</h2>
-                <p>
-                    <a href="#" onclick="left(1)">&#8592;</a>
-                    <a href="#" onclick="right(3)">&#8594;</a>
-                    <a href="#" class="display-link-container">
-                        <span class="display-link">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
+
+                <section id="section-scroll" class="demo">
+
+                    <a href="#index-section-third"><span></span>für mehr Infos bitte <br> scrollen ...</a>
+                </section>
+
+
+                <div id="grid">
+                    <a href="index.html" class="grid-item grid-home">
+                        <div>
+                            <h3>01/<sup>03</sup></h3>
+                            <h2>Eiche trifft Metall</h2>
+                        </div>
                     </a>
-                </p>
-            </div>
-            <div class="section-first-link">
-                <h3>03/ <sup>05</sup></h3>
-                <h2>Hier stehen Worte 3</h2>
-                <p>
-                    <a href="#" onclick="left(2)">&#8592;</a>
-                    <a href="#" onclick="right(4)">&#8594;</a>
-                    <a href="#" class="display-link-container">
-                        <span class="display-link">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
+                    <a href="assets/html/project-ux.html" class="grid-item grid-ux">
+                        <div>
+                            <h3>02/<sup>03</sup></h3>
+                            <h2>Metall trifft Seekiefer</h2>
+                        </div>
                     </a>
-                </p>
-            </div>
-            <div class="section-first-link">
-                <h3>04/ <sup>05</sup></h3>
-                <h2>Hier stehen Worte 4</h2>
-                <p>
-                    <a href="#" onclick="left(3)">&#8592;</a>
-                    <a href="#" onclick="right(5)">&#8594;</a>
-                    <a href="#" class="display-link-container">
-                        <span class="display-link">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
+                    <a href="assets/html/project-kyto.html" class="grid-item grid-kyto">
+                        <div>
+                            <h3>03/<sup>03</sup></h3>
+                            <h2>Kyto Coffe Konzept</h2>
+                        </div>
                     </a>
-                </p>
-            </div>
-            <div class="section-first-link">
-                <h3>05/ <sup>05</sup></h3>
-                <h2>Hier stehen Worte 5</h2>
-                <p>
-                    <a href="#" onclick="left(4)">&#8592;</a>
-                    <a href="#" onclick="right(1)">&#8594;</a>
-                    <a href="#" class="display-link-container">
-                        <span class="display-link">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </a>
-                </p>
-            </div> -->
-        </section>
-        <!-- -------------------------------- section2
+
+                    <article class="label-tag" id="grid-lable-tag">
+                        <h4>URBAN | MINIMALISTISCH <br>
+                            | SKANDINAVISCH</h4>
+                        <p>
+                            Ein Einzelmöbel, eine Küche, diverse <br>
+                            Handwerkerleistungen, eine komplette Grundrissplanung <br>
+                            oder einfach einen guten Rat?
+                        </p>
+                    </article>
+                </div>
+
+            </section>
+
+            <!-- -------------------------------- section2
             ------------------------------------------------------ -->
 
 
-        <section class="index-section-zweiter">
-            <h2>Tisch “Nico”<br>
-                Elleganz und <br>
-                Leichtigkeit
-            </h2>
-            <article>
-                <p>Minimalismus pur und perfekt in seinen Details - es war uns eine riesige Freude dieses Highlight für
-                    und mit unserem Kunden umsetzen zu dürfen.
-                    Die schlichte und schlankgehaltenen Massivholzpaltte aus Eiche in kombination mit den elgeganten
-                    Metaalfüssen gefertig aus 20mm Rundstahlrohren. DIe Pulverbeschichtung sorgt für eine moderbne Optik
-                </p>
+            <section class="index-section-zweiter">
+                <h2>Tisch “Nico”<br>
+                    Elleganz und <br>
+                    Leichtigkeit
+                </h2>
+                <article>
+                    <p>Minimalismus pur und perfekt in seinen Details - es war uns eine riesige Freude dieses Highlight
+                        für
+                        und mit unserem Kunden umsetzen zu dürfen.
+                        Die schlichte und schlankgehaltenen Massivholzpaltte aus Eiche in kombination mit den elgeganten
+                        Metaalfüssen gefertig aus 20mm Rundstahlrohren. DIe Pulverbeschichtung sorgt für eine moderbne
+                        Optik
+                    </p>
 
-            </article>
-        </section>
-        <!-- ----------------------------------------------- CODE VON JASCHA ----------------------------------------------- -->
-        <section id="index-section-third">
-            <article id="index-section-third-article1">
-                <!-- <div class="sectionThreeSlider">
+                </article>
+            </section>
+            <!-- ----------------------------------------------- CODE VON JASCHA ----------------------------------------------- -->
+            <section id="index-section-third">
+                <article id="index-section-third-article1">
+                    <!-- <div class="sectionThreeSlider">
                     <div id="ClassOfPictureSliderPicture"></div>
                 </div> -->
-                <div class="section-three-link">
-                    <img src="/assets/img/index_slide_1.jpg" alt="" class="display-img">
-                    <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(3)">
-                    <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(2)">
-                </div>
-                <div class="section-three-link">
-                    <img src="/assets/img/index_slide_2.jpg" alt="" class="display-img vertical">
-                    <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(1)">
-                    <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(3)">
-                </div>
-                <div class="section-three-link">
-                    <img src="/assets/img/index.jpg" alt="" class="display-img">
-                    <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(2)">
-                    <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(1)">
-                </div>
+                    <div class="section-three-link">
+                        <img src="/assets/img/index_slide_1.jpg" alt="" class="display-img">
+                        <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(3)">
+                        <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(2)">
+                    </div>
+                    <div class="section-three-link">
+                        <img src="/assets/img/index_slide_2.jpg" alt="" class="display-img vertical">
+                        <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(1)">
+                        <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(3)">
+                    </div>
+                    <div class="section-three-link">
+                        <img src="/assets/img/index.jpg" alt="" class="display-img">
+                        <img src="assets/img/Arrow 3.svg" alt="" class="arrow-left" onclick="leftOfSectionThree(2)">
+                        <img src="assets/img/Arrow 4.svg" alt="" class="arrow-right" onclick="rightOfSectionThree(1)">
+                    </div>
 
+                </article>
+                <article id="index-section-third-article2">
+                    <h2>Die Bank zum Tisch</h2>
+                    <p>Passend zum Tisch wurde auf Kundenwunsch eine Bank gefertigt.
+                        Eine dezente Eichenplatte in Kombination mit einer kleinen Ausführung der Tischfüsse. Die
+                        Sitzhöhe
+                        beträgt ca 45 cm
+                    </p>
+                    <p>
+                        <b>
+                            Masse Tisch : 2000 mm x 900 mm<br>
+                            Masse Bank: 1800 mm x 300mm
+                        </b>
+                    </p>
+                </article>
+            </section>
+            <!-- ----------------------------------------------- CODE VON JASCHA ----------------------------------------------- -->
+        </main>
+        <footer class="index-footer">
+            <article>
+                <h2>astrein</h2>
+                <h4>Ratherstrasse 25, 40235 Düsseldorf</h4>
             </article>
-            <article id="index-section-third-article2">
-                <h2>Die Bank zum Tisch</h2>
-                <p>Passend zum Tisch wurde auf Kundenwunsch eine Bank gefertigt.
-                    Eine dezente Eichenplatte in Kombination mit einer kleinen Ausführung der Tischfüsse. Die Sitzhöhe
-                    beträgt ca 45 cm
-                </p>
-                <p>
-                    <b>
-                        Masse Tisch : 2000 mm x 900 mm<br>
-                        Masse Bank: 1800 mm x 300mm
-                    </b>
-                </p>
-                <!-- <a class="SchwarzerButton" href="#">jetzt anfragen</a> -->
+            <article>
+                <form action="">
+                    <input type="button" value="Kontakt" onclick="ButtonToShowKontakt()">
+                    <input type="button" value="Impressum ">
+                </form>
             </article>
-        </section>
-        <!-- ----------------------------------------------- CODE VON JASCHA ----------------------------------------------- -->
-    </main>
-    <footer class="index-footer">
-        <article>
-            <h2>astrein</h2>
-            <h4>Ratherstrasse 25, 40235 Düsseldorf</h4>
-        </article>
-        <article>
-            <form action="">
-                <input type="button" value="Kontakt">
-                <input type="button" value="Impressum ">
-            </form>
-        </article>
-    </footer>
+        </footer>
 
-
+    </div>
 
     <script src="assets/js/main.js"></script>
 </body>
