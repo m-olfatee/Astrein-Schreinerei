@@ -568,14 +568,20 @@ form {
 }
 
 #project-ux-main .navigation a {
-    color: black;
+    color: #232323;
 }
+
 
 /* ----------------------------- Project Kyto CSS --------------------------------- */
 .project-kyto-first {
     background-image: url(../img/project_kyto.jpg);
 }
-
+#project-kyto-main .navigation a {
+    color: #fafafa;
+}
+#project-kyto-main .hover::before {
+    background-color: #fafafa;
+}
 /* -----------------------------------------überuns css ------------------------ */
 .index2-section-first {
     background-image: url(/assets/img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
