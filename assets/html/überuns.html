@@ -6,150 +6,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400i|Libre+Baskerville:400,700&display=swap"
         rel="stylesheet">
-    <title>Astrein Schreinerei - Custom</title>
+    <title>Astrein Schreinerei - Über uns</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 
 <body>
 
-    <main id="index-main">
-        <section id="section-first" class="index-section-first about-first">
-            <div class="navigation">
-                <a href="../../index.html"> <img src="../img/Logo_astrein_weiss.svg" alt="" id="logo"></a>
-                <ul>
-                    <li><a href="#" class="hover" onclick="grid(0)">Projekte</a></li>
-                    <li><a href="überuns.html" class="hover">Über Uns</a></li>
-                    <li><a href="#" class="hover">Kontakt</a></li>
-                </ul>
-                <a href="#" id="contact-link"></a>
-            </div>
+    <section id="index-NoVisibleContactSection">
+        <section id="HeaderOfContactUs">
+            <a onclick="ButtonToGoBackFromContact()" href="#"><img src="../img/ContactUsBackButton.svg" alt="" /></a>
+        </section>
+        <section id="MainOfContactUs">
+            <section id="SectionLeftOfContactUs">
+                <img src="../img/ContactBildWood.jpg" width="75%" alt="">
+            </section>
+            <section id="SectionRightOfContactUs">
+                <form action="">
+                    <h4>EINRICHTUNGSBERATUNG & UMSETZUNG</h4>
+                    <h5>DIGITAL INTERIOR CONSULTING</h5>
+                    <h5><b>Ihr Name</b></h5>
+                    <input type="text" name="" id="ContactUsInputName">
+                    <h5><b>Ihre E-Mail</b></h5>
+                    <input type="text" name="" id="ContactUsInputMail">
+                    <h5><b>Ihre Nachricht</b></h5>
+                    <input type="text" name="" id="ContactUsInputMessage">
+                    <input type="submit" value="Senden" class="SchwarzerButton" onclick="ButtonToGoBackFromContact()">
+                </form>
+            </section>
+        </section>
+    </section>
 
-            <div class="section-first-link">
-                <h3>04/ <sup>04</sup></h3>
-                <h2>Das sind wir</h2>
-                <p>
-                    <a href="project-kyto.html">
-                        <img src="../img/Arrow 1.svg" alt="">
+    <div id="ALLHTML">
+
+        <main id="index-main">
+            <section id="section-first" class="index-section-first about-first">
+
+                <article class="nav">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="topnav">
+                        <a href="../../index.html"> <img src="../img/Logo_astrein_weiss.svg" alt="" id="logo1"></a>
+                        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                            &#9776;
+                        </a>
+                    </div>
+                </article>
+
+                <div class="navigation">
+                    <a href="../../index.html"> <img src="../img/Logo_astrein_weiss.svg" alt="" id="logo"></a>
+                    <ul>
+                        <li><a href="#" class="hover" onclick="grid(0)">Projekte</a></li>
+                        <li><a href="überuns.html" class="hover">Über Uns</a></li>
+                        <li><a href="#" onclick="ButtonToShowKontakt()" class="hover">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="section-first-link">
+                    <h3>04/ <sup>04</sup></h3>
+                    <h2>Das sind wir</h2>
+                    <p>
+                        <a href="project-kyto.html">
+                            <img src="../img/Arrow 1.svg" alt="">
+                        </a>
+                        <a href="../../index.html">
+                            <img src="../img/Arrow 2.svg" alt="">
+                        </a>
+                        <a href="#" class="display-link-container" onclick="grid(0)">
+                            <img src="../img/Group 14 Tile Icon.svg" alt="">
+                        </a>
+                    </p>
+                </div>
+                <a href="#about">
+                    <article class="label-tag lable-grid" id="lable-tag">
+                        <h4>Ruben Welinger</h4>
+                        <h4>Thomas Kirchner</h4>
+                        <p>
+                            UX / UI Designer & Maker <br>
+                            ruben@halloastrein.com
+                        </p>
+                        <p>
+                            Dude & Maker <br>
+                            homas@halloastrein.com
+                        </p>
+                    </article>
+                </a>
+
+                <section id="section-scroll" class="demo">
+
+                    <a href="#index2-section-zweiter"><span></span></a>
+                </section>
+
+                <div id="grid">
+                    <a href="../../index.html" class="grid-item grid-home">
+                        <div>
+                            <h3>01/<sup>03</sup></h3>
+                            <h2>Eiche trifft Metall</h2>
+                        </div>
                     </a>
-                    <a href="../../index.html">
-                        <img src="../img/Arrow 2.svg" alt="">
+                    <a href="project-ux.html" class="grid-item grid-ux">
+                        <div>
+                            <h3>02/<sup>03</sup></h3>
+                            <h2>Metall trifft Seekiefer</h2>
+                        </div>
                     </a>
-                    <a href="#" class="display-link-container" onclick="grid(0)">
-                        <img src="../img/Group 14 Tile Icon.svg" alt="">
+                    <a href="project-kyto.html" class="grid-item grid-kyto">
+                        <div>
+                            <h3>03/<sup>03</sup></h3>
+                            <h2>Kyto Coffee Konzept</h2>
+                        </div>
                     </a>
-                </p>
-            </div>
+                    <article class="label-tag" id="grid-lable-tag">
+                        <h4>URBAN | MINIMALISTISCH <br>
+                            | SKANDINAVISCH</h4>
+                        <p>
+                            Ein Einzelmöbel, eine Küche, diverse <br>
+                            Handwerkerleistungen, eine komplette Grundrissplanung <br>
+                            oder einfach einen guten Rat?
+                        </p>
+                    </article>
+                </div>
 
-            <article class="label-tag lable-grid" id="lable-tag">
-                <h4>Ruben Welinger</h4>
-                <h4>Thomas Kirchner</h4>
-                <p>
-                    UX / UI Designer & Maker <br>
-                    ruben@halloastrein.com
-                </p>
-                <p>
-                    Dude & Maker <br>
-                    homas@halloastrein.com
-                </p>
-            </article>
-
-            <section id="section-scroll" class="demo">
-
-                <a href="#about"><span></span>für mehr Infos bitte <br> scrollen ...</a>
             </section>
 
-            <div id="grid">
-                <a href="../../index.html" class="grid-item grid-home">
-                    <div>
-                        <h3>01/<sup>03</sup></h3>
-                        <h2>Eiche trifft Metall</h2>
-                    </div>
-                </a>
-                <a href="project-ux.html" class="grid-item grid-ux">
-                    <div>
-                        <h3>02/<sup>03</sup></h3>
-                        <h2>Metall trifft Seekiefer</h2>
-                    </div>
-                </a>
-                <a href="project-kyto.html" class="grid-item grid-kyto">
-                    <div>
-                        <h3>03/<sup>03</sup></h3>
-                        <h2>Kyto Coffe Konzept</h2>
-                    </div>
-                </a>
-                <article class="label-tag" id="grid-lable-tag">
-                    <h4>URBAN | MINIMALISTISCH <br>
-                        | SKANDINAVISCH</h4>
-                    <p>
-                        Ein Einzelmöbel, eine Küche, diverse <br>
-                        Handwerkerleistungen, eine komplette Grundrissplanung <br>
-                        oder einfach einen guten Rat?
-                    </p>
-                </article>
+            <div id="grid-show">
+
+                <section class="index2-section-zweiter">
+                    <article class="index2-article-first">
+                        <h2>Erfahrung, auf die Sie bauen können. Mit Anspruch wohen. Urban | Minimalistisch |
+                            Skandinavisch
+                        </h2>
+                    </article>
+                    <p>Wir sind Thomas und Ruben und würden dir gerne dabei helfen, deine nächste Wohnung oder Büro
+                        geschmackvoll und kosteneffizient einzurichten. Mit 16 Jahren begann unsere Laufbahn mit
+                        einer
+                        Schreinerausbildung. Danach folgten 3 Jahre als technische Zeichner sowie fast 10 Jahre
+                        Projektleitung
+                        im Bereich Innenausbau für Generalunternehmer & Architekturbüros. In den letzten 3 Jahre
+                        konnten
+                        wir
+                        unsere Leidenschaft für moderne, minimalistisch-skandinavische Innenarchitektur in einer
+                        Vielzahl
+                        von
+                        Projekten einfließen lassen. Dabei profitieren unsere Kunden aus einem budgetorientierten
+                        Stilmix
+                        zwischen Einzelanfertigungen, Design Classics & DIY Lösungen. Dabei kann ich mich auf ein
+                        zuverlässiges
+                        Netzwerk von Handwerkern verlassen, egal ob Malerarbeiten, Trockenbau oder
+                        Schreinerarbeiten.
+                        Hinzu
+                        kommen junge Second-Hand Möbel Läden & Online Händler.</p>
+                </section>
+                <section id="about" class="index2-section-fierta">
+                    <article>
+                        <h1> Du willst mit uns arbeiten?</h1>
+                        <div class="index2-section-fierta-div">
+                            <div>
+                                <h3>01 – Briefing </h3>
+                                <p>Du schickst mir ein kurzes Briefing. Was brauchst du? </p>
+                            </div>
+                            <div>
+                                <h3>02 – Kosten</h3>
+                                <p>Ich erstelle dir ein kostenloses Angebot. Wenn es sich um ein Einzelmöbel oder
+                                    eine
+                                    Küche
+                                    handelt als konkretes Angebot.</p>
+                            </div>
+                            <div>
+                                <h3>03 – Planung</h3>
+                                <p>Auf Basis deines Aufmasses erstelle ich eine 2D Einrichtungsplanung mit
+                                    Mood-Bildern
+                                    ("Look&Feel Konzept").</p>
+                            </div>
+                            <div>
+                                <h3>04 – Fertigung </h3>
+                                <p>Durch 15 Jahre Berufserfahrung im Bereich Innenausbau steht mir ein großes
+                                    Netzwerk
+                                    an
+                                    zuverlässigen Handwerkern und Lieferanten zur Verfügung.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <img src="../img/335DC31A-0E5F-423B-8B6F-1EA2AE6C31FA.JPG" alt="">
+                </section>
+                <section class="index2-section-fienfta">
+                    <h2> Wir machen Möbel zum Entspannen und Arbeiten – <br>  für Zuhause oder fürs Büro.</h2>
+                </section>
             </div>
-
-
-        </section>
-        <section class="index2-section-zweiter">
-            <article class="index2-article-first">
-                <h2>Erfahrung, auf die Sie bauen können. Mit Anspruch wohen. Urban | Minimalistisch | Skandinavisch</h2>
-            </article>
-            <p>Wir sind Thomas und Ruben und würden dir gerne dabei helfen, deine nächste Wohnung oder Büro
-                geschmackvoll und kosteneffizient einzurichten. Mit 16 Jahren begann unsere Laufbahn mit einer
-                Schreinerausbildung. Danach folgten 3 Jahre als technische Zeichner sowie fast 10 Jahre Projektleitung
-                im Bereich Innenausbau für Generalunternehmer & Architekturbüros. In den letzten 3 Jahre konnten wir
-                unsere Leidenschaft für moderne, minimalistisch-skandinavische Innenarchitektur in einer Vielzahl von
-                Projekten einfließen lassen. Dabei profitieren unsere Kunden aus einem budgetorientierten Stilmix
-                zwischen Einzelanfertigungen, Design Classics & DIY Lösungen. Dabei kann ich mich auf ein zuverlässiges
-                Netzwerk von Handwerkern verlassen, egal ob Malerarbeiten, Trockenbau oder Schreinerarbeiten. Hinzu
-                kommen junge Second-Hand Möbel Läden & Online Händler.</p>
-        </section>
-        <section id="about" class="index2-section-fierta">
+        </main>
+        <footer class="index-footer" id="footer">
             <article>
-                <h1> Du willst mit uns arbeiten?</h1>
-                <div class="index2-section-fierta-div">
-                    <div>
-                        <h3>01 – Briefing </h3>
-                        <p>Du schickst mir ein kurzes Briefing. Was brauchst du? </p>
-                    </div>
-                    <div>
-                        <h3>02 – Kosten</h3>
-                        <p>Ich erstelle dir ein kostenloses Angebot. Wenn es sich um ein Einzelmöbel oder eine Küche
-                            handelt als konkretes Angebot.</p>
-                    </div>
-                    <div>
-                        <h3>03 – Planung</h3>
-                        <p>Auf Basis deines Aufmasses erstelle ich eine 2D Einrichtungsplanung mit Mood-Bildern
-                            ("Look&Feel Konzept").</p>
-                    </div>
-                    <div>
-                        <h3>04 – Fertigung </h3>
-                        <p>Durch 15 Jahre Berufserfahrung im Bereich Innenausbau steht mir ein großes Netzwerk an
-                            zuverlässigen Handwerkern und Lieferanten zur Verfügung.</p>
-                    </div>
-                </div>
+                <h2>astrein</h2>
+                <h4>Ratherstrasse 25, 40235 Düsseldorf</h4>
             </article>
-            <img src="../img/335DC31A-0E5F-423B-8B6F-1EA2AE6C31FA.JPG" alt="">
-        </section>
-        <section class="index2-section-fienfta">
-            <h2> Wir machen Möbel zum Entspannen und Arbeiten – <br>  für Zuhause oder fürs Büro.</h2>
-        </section>
-    </main>
-    <footer class="index-footer">
-        <article>
-            <h2>astrein</h2>
-            <h4>Ratherstrasse 25, 40235 Düsseldorf</h4>
-        </article>
-        <article>
-            <form action="">
-                <input type="button" value="Kontakt">
-                <input type="button" value="Impressum ">
-            </form>
-        </article>
-    </footer>
+            <article>
+                <form action="">
+                    <input type="button" value="Kontakt" onclick="ButtonToShowKontakt()">
+                    <input type="button" value="Impressum ">
+                </form>
+            </article>
+        </footer>
 
-
+    </div>
     <script src="../js/main.js"></script>
 </body>
 
