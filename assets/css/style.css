@@ -1,0 +1,813 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,300&family=Libre+Baskerville:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------*/
+/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
+/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
+
+h1 {
+    font-size: 4.375rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3.125rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.875rem;
+    font-family: "Libre Baskerville", serif;
+    color: #fafafa;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-family: "Libre Baskerville", serif;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 0.75rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+h6 {
+    font-size: 0.5rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+}
+
+a {
+    font-size: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.FarbeGrey {
+    color: #232323;
+}
+
+.FarbeWeiss {
+    color: #ffffff;
+}
+
+.FarbeWeisslich {
+    color: #fafafa;
+}
+
+.SchwarzerButton {
+    font-size: 0.75rem;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+
+.BottomFooterDesign {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+
+/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
+/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
+/* ------------------------ ENDE - CODE VON JASCHA - General Design Suggestion -------------------*/
+
+body {
+    font-family: "Libre Baskerville", serif;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+}
+
+.hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #232323;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#section-first {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index-section-first {
+    background-image: url(../img/index.jpg);
+}
+
+.navigation {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 50%;
+    height: 50%;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    padding: 0 3vw;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #232323;
+}
+
+#section-first>div.section-first-link>p>a:nth-child(1) {
+    padding-right: 2%;
+}
+
+.section-first-link {
+    color: #fafafa;
+    margin: 8% 0 0 30%;
+}
+
+.section-first-link h3 {
+    font-size: 4em;
+    font-family: "Libre Baskerville";
+}
+
+.section-first-link h3 sup {
+    font-size: 1.2rem;
+}
+
+.section-first-link h2 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 4em;
+    color: #fafafa;
+}
+
+.section-first-link a {
+    color: #fafafa;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.section-first-link p {
+    display: flex;
+    align-items: center;
+}
+
+.display-link-container {
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.display-link {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+.display-link-container .display-link span {
+    border: 1px solid rgba(255, 255, 0, 0.5);
+}
+
+
+#grid {
+    margin: 5% 2%;
+    display: none;
+    grid-template-columns: repeat(5, 45%);
+    gap: 3%;
+    overflow-x: scroll;
+
+}
+#grid h3 {
+    font-size: 3rem;
+    margin: 20% 0 0 10%;
+    color: #fafafa;
+}
+#grid h3 sup {
+    font-size: 1rem;
+    color: #fafafa;
+
+}
+#grid h2 {
+    font-size: 3rem;
+    margin: 2% 0 0 10%;
+    color: #fafafa;
+
+}
+.grid-item {
+    text-decoration: none;
+    color: #fafafa;
+    display: block;
+    height: 50vh;
+    background-image: url(../img/index.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.grid-ux {
+    background-image: url(../img/project_ux.jpg);
+}
+.grid-kyto {
+    background-image: url(../img/project_kyto.jpg);
+}
+
+.label-tag {
+    padding: 2% 4% 1% 2%;
+    position: absolute;
+    right: 0;
+    bottom: 5vh;
+    background-color: #fafafa;
+    height: 10vh;
+    width: 20vw;
+}
+.label-tag h4{
+    color: #232323;
+    font-size: 1.5vw;
+}
+.label-tag p {
+    font-size: 0.9vw;
+}
+#grid-lable-tag{
+    right: 2vw;
+    border: 2px solid black;
+    box-shadow: 2vw 2vw black;
+    width: 25vw;
+    height: 15vh;
+    bottom: 3vh;
+}
+#grid-lable-tag h4 {
+    font-size: 1.2vw;
+    padding-bottom: 2%;
+}
+#grid-lable-tag p {
+    font-size: 0.8vw;
+}
+
+#section-scroll {
+    margin-top: 40vh;
+    position: relative;
+    width: 100%;
+  }
+  .demo a {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .7;
+  }
+  
+  #section-scroll a {
+    padding-top: 60px;
+  }
+  #section-scroll a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  #section-scroll a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+  #section-scroll a span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+    border-radius: 100%;
+    opacity: 0;
+    -webkit-animation: sdb03 3s infinite;
+    animation: sdb03 3s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb03 {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb03 {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+
+
+
+
+#section-scroll::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 80%;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  }
+
+#index-section-first>div:nth-child(3),
+#index-section-first>div:nth-child(4),
+#index-section-first>div:nth-child(5),
+#index-section-first>div:nth-child(6) {
+    display: none;
+}
+
+#index-main>section>div:nth-child(3) {
+    display: none;
+}
+
+/* ------------------------ START - CODE VON JASCHA - Styling Section 3 -------------------*/
+#index-section-third {
+    height: 50vh;
+    width: 100%;
+    font-family: "Libre Baskerville", serif;
+    display: flex;
+    margin-bottom: 25%;
+}
+
+#index-section-third-article1 {
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThreeSlider {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ClassOfPictureSliderPicture {
+    width: 80%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#index-section-third-article2 {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+}
+
+#index-section-third-article2 h2,
+#index-section-third-article2 p {
+    margin: 2% 0;
+}
+
+/* .SchwarzerButton {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 15%;
+    text-align: center;
+    box-shadow: 5px 5px black;
+    font-size: 0.8em;
+    padding: 1% 1%;
+    margin-top: 3%;
+} */
+
+.section-three-link a {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.section-three-link {
+    margin-left: 15%;
+}
+
+.section-three-link .display-img {
+    width: 100%;
+    display: block;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+.section-three-link .vertical {
+    width: 40%;
+}
+.section-three-link .arrow-left {
+    padding-right: 2%;
+}
+
+#index-section-third-article1>div:nth-child(2),
+#index-section-third-article1>div:nth-child(3) {
+    display: none;
+}
+
+/* ------------------------ ENDE - CODE VON JASCHA - Styling Section 3 -------------------*/
+#index-main>section>div:nth-child(3) {
+    display: none;
+}
+
+/* -------------------------------- section2 ------------------------------------------------------ */
+.index-section-zweiter {
+    margin: 8%;
+}
+
+.index-section-zweiter h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.index-section-zweiter article {
+    display: flex;
+}
+
+.index-section-zweiter article p {
+    width: 27%;
+}
+
+.index-section-zweiter article p:nth-child(1) {
+    margin-left: 25%;
+    margin-right: 2%;
+}
+
+/* -------------------------------- footer ------------------------------------------------------ */
+.index-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding: 4% 0;
+    background-color: #232323;
+}
+
+.index-footer h2 {
+    color: #fafafa;
+    font-size: 1.9em;
+}
+
+.index-footer h4 {
+    color: #fafafa;
+}
+
+input[type="button"] {
+    background-color: #232323;
+    color: #fafafa;
+    border: 2px solid #fafafa;
+    font-size: 1.4em;
+    margin: 0 15%;
+    padding: 10px 30px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------------------------- Project UX CSS --------------------------------- */
+.project-ux-first {
+    background-image: url(../img/project_ux.jpg);
+}
+
+#project-ux-main .navigation a {
+    color: black;
+}
+
+/* ----------------------------- Project Kyto CSS --------------------------------- */
+.project-kyto-first {
+    background-image: url(../img/project_kyto.jpg);
+}
+
+/* -----------------------------------------überuns css ------------------------ */
+.index2-section-first {
+    background-image: url(/assets/img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: 16.5%; */
+}
+
+.index2-section-first>div.section-first-link>p>a:nth-child(1) {
+    padding-right: 2%;
+}
+
+.index2-section-first-text {
+    background-color: #fafafa;
+    display: flex;
+    width: 35%;
+    margin-left: 60%;
+    margin-top: 12.5%;
+    /* margin-bottom: 10%; */
+    padding: 2.5%;
+}
+
+.index2-section-first-text div {
+    margin-left: 8%;
+    line-height: 130%;
+}
+
+.index2-section-first-text h3 {
+    color: #000;
+    font-size: 1em;
+}
+
+.index2-section-first-text p {
+    color: #000;
+    font-size: 1rem;
+}
+
+.index2-section-zweiter {
+    margin: 13%;
+}
+
+.index2-article-first h2 {
+    font-size: 2rem;
+}
+
+.index2-section-zweiter p {
+    font-size: 1rem;
+    margin: 5% 0;
+    width: 104%;
+}
+
+.index2-section-fierta {
+    display: flex;
+}
+
+.index2-section-fierta img {
+    width: 551px;
+    height: 565px;
+    margin-right: 6%;
+}
+
+.index2-section-fierta article {
+    margin-left: 13%;
+    margin-right: 2%;
+}
+
+.index2-section-fierta article h1 {
+    margin-bottom: 18%;
+    font-size: 2em;
+}
+
+.index2-section-fierta-div {
+    display: grid;
+    grid-template-columns: 44% 44%;
+    gap: 2%;
+}
+
+.index2-section-fierta-div div h3 {
+    color: #000;
+    font-size: 1.4em;
+    margin-bottom: 15%;
+}
+
+.index2-section-fierta-div div p {
+    font-size: 1em;
+    margin-bottom: 7%;
+}
+
+.index2-section-fienfta {
+    margin: 8% 13%;
+}
+
+.index2-section-fienfta h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.lable-grid {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    gap: 10%;
+    width: 30vw;
+    height: 10vh;
+    bottom: 0;
+}
+.about-first {
+    background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg); 
+}
+
+#index-main .about-first .navigation a {
+    color: #fafafa;
+}
+#index-main .about-first .navigation .hover::before {
+    
+    background-color: #fafafa;
+   
+}
+/* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------
+/* ------------------------ Please keep it in the end, then the others will be overwritten. */
+
+/* h1 {
+    font-size: 4.375em;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+h2 {
+    font-size: 3.125em;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.875em;
+    font-family: "Libre Baskerville", serif;
+    color: #fafafa;
+    font-weight: 700;
+}
+h4 {
+    font-size: 1.25em;
+    font-family: "Libre Baskerville", serif;
+    color: #ffffff;
+    font-weight: 700;
+}
+h5 {
+    font-size: 0.75em;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+h6 {
+    font-size: 0.5em;
+}
+p {
+    font-size: 1.25em;
+    font-family: "Libre Baskerville", serif;
+    color: #232323;
+}
+a {
+    font-size: 1em;
+}
+.SchwarzerButton {
+    font-size: 0.75em;
+    color: #232323;
+    font-family: "Libre Baskerville", serif;
+}
+.BottomFooterDesign {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.25em;
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid #ffffff;
+} */
+
+/* ------------------------ Anfang - CODE VON JASCHA - ContactPage -------------------*/
+#HeaderOfContactUs {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2.5% 0;
+}
+#MainOfContactUs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#SectionLeftOfContactUs {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#SectionRightOfContactUs {
+    width: 50%;
+    display: flex;
+    align-self: flex-start;
+}
+#SectionRightOfContactUs form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+#SectionRightOfContactUs form input {
+    margin: 2% 0;
+    width: 120%;
+    height: 2rem;
+}
+#SectionRightOfContactUs form input:last-child {
+    margin: 2% 0;
+    width: 15%;
+    height: 2rem;
+}
+#SectionRightOfContactUs form input:nth-of-type(3) {
+    height: 8rem;
+}
+#SectionRightOfContactUs h4 {
+    color: #232323;
+    margin-bottom: 5%;
+}
+#SectionRightOfContactUs form h5:nth-of-type(1) {
+    margin-bottom: 5%;
+}
+#index-NoVisibleContactSection {
+    display: none;
+}
+
+
+
+/* ------------------------ Ende - CODE VON JASCHA - ContactPage -------------------*/
+
