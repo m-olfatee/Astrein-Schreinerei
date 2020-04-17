@@ -214,7 +214,7 @@ body {
 
 
 #grid {
-    margin: 8% 2%;
+    margin: 5% 2%;
     display: none;
     grid-template-columns: repeat(5, 45%);
     gap: 3%;
@@ -224,13 +224,18 @@ body {
 #grid h3 {
     font-size: 3rem;
     margin: 20% 0 0 10%;
+    color: #fafafa;
 }
 #grid h3 sup {
     font-size: 1rem;
+    color: #fafafa;
+
 }
 #grid h2 {
     font-size: 3rem;
-    margin: 5% 0 0 10%;
+    margin: 2% 0 0 10%;
+    color: #fafafa;
+
 }
 .grid-item {
     text-decoration: none;
@@ -267,7 +272,21 @@ body {
 .label-tag p {
     font-size: 0.9vw;
 }
-
+#grid-lable-tag{
+    right: 2vw;
+    border: 2px solid black;
+    box-shadow: 2vw 2vw black;
+    width: 25vw;
+    height: 15vh;
+    bottom: 3vh;
+}
+#grid-lable-tag h4 {
+    font-size: 1.2vw;
+    padding-bottom: 2%;
+}
+#grid-lable-tag p {
+    font-size: 0.8vw;
+}
 
 #section-scroll {
     margin-top: 40vh;

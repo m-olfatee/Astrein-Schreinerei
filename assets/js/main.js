@@ -56,6 +56,7 @@ function grid(i) {
         document.getElementById("section-first").style.backgroundImage = "url('')";
         document.getElementById("grid").style.display = "grid";
         document.getElementById("section-scroll").style.display = "none";
+        document.getElementById("lable-tag").style.display = "none";
         document.getElementById("logo").src = "/assets/img/logo_astrein.svg";
         document.getElementById("contact-link").style.color = "#000";
         for (let j = 0; j < 5; j++) {
