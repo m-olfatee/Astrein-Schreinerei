@@ -52,6 +52,9 @@ function left(i) {
 function grid(i) {
     var linkBox = document.getElementsByClassName("section-first-link");
     if (i == 0) {
+        document.getElementById("mySidenav").style.width = `${i}`;
+        document.getElementById("mySidenav").style.display = "none";
+        document.getElementById("openbtn").style.color = "#232323"
         linkBox.item(i).style.display = "none";
         document.getElementById("grid-show").style.display = "none";
         document.getElementById("footer").style.display = "none";
@@ -99,12 +102,13 @@ function leftOfSectionThree(i) {
 
 
 function ButtonToShowKontakt() {
-    document.getElementById("index-NoVisibleContactSection").style.display = "block"
-    document.getElementById("ALLHTML").style.display = "none"
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("index-NoVisibleContactSection").style.display = "block";
+    document.getElementById("ALLHTML").style.display = "none";
 }
 function ButtonToGoBackFromContact() {
-    document.getElementById("ALLHTML").style.display = "block"
-    document.getElementById("index-NoVisibleContactSection").style.display = "none"
+    document.getElementById("ALLHTML").style.display = "block";
+    document.getElementById("index-NoVisibleContactSection").style.display = "none";
 }
 
 // ------------------------------ CODE VON JASCHA ------------------------------
@@ -113,7 +117,9 @@ function ButtonToGoBackFromContact() {
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("section-scroll").style.display = "none";
 }
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("section-scroll").style.display = "block";
 }
