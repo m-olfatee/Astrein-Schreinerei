@@ -1090,22 +1090,147 @@ a {
     /* --------------- START MAIN PAGE IPHONE SE --------------- */
     #lable-tag {
         height: 15vh;
-        margin-top: 10%;
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 57%;
     }
 
     #section-first>div.section-first-link>h3 {
-        position: relative;
+        margin-bottom: 7.5%;
     }
 
-    #section-first>div.section-first-link>h3>sup {
+
+    #openbtn {
         position: absolute;
-        top: 0px;
-        left: 15%;
-        font-size: 1rem;
+        top: 0;
+        right: 15px;
     }
+
+    #index-main h1 {
+        font-size: 2.19rem;
+    }
+
+    #index-main h2 {
+        font-size: 1.56rem;
+    }
+
+    #index-main h3 {
+        font-size: 0.95rem;
+    }
+
+    #index-main h4 {
+        font-size: 0.95rem;
+    }
+
+    #index-main h5 {
+        font-size: 0.95rem;
+    }
+
+    #index-main h6 {
+        font-size: 0.95rem;
+    }
+
+    #index-main p {
+        font-size: 0.95rem;
+    }
+
+    #index-main a {
+        font-size: 0.95rem;
+    }
+
+
+    #index-section-third {
+        max-width: 320px;
+    }
+
+    .display-img {
+        max-width: 300px;
+    }
+
+    #index-section-third-article2 h2 {
+        max-width: 320px;
+    }
+
+    #index-section-third-article2 p {
+        max-width: 320px;
+    }
+
+    #footer>article:nth-child(2) {
+        margin: 0;
+        padding: 0;
+        width: 90%;
+    }
+
+    #footer {
+        margin-top: 20px;
+    }
+
+    #index-section-third-article2 p {
+        display: block;
+        width: 300px;
+    }
+
+    #footer>article:nth-child(1)>h2 {
+        font-size: 0.95rem;
+    }
+
+    #footer>article:nth-child(1)>h4:nth-child(2) {
+        font-size: 0.95rem;
+    }
+
+    #footer>article:nth-child(1)>h4:nth-child(3) {
+        font-size: 0.95rem;
+    }
+
+    .index-section-zweiter article p {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+
 
     /* --------------- START MAIN PAGE IPHONE SE --------------- */
+
+    /* --------------- START BurgerButton IPHONE SE --------------- */
+
+    #mySidenav>a:nth-child(2) {
+        font-size: 2rem;
+    }
+
+    #mySidenav>a:nth-child(3) {
+        font-size: 2rem;
+    }
+
+    #mySidenav>a:nth-child(4) {
+        font-size: 2rem;
+    }
+
+
+    /* --------------- Ende BurgerButton IPHONE SE --------------- */
+    /* --------------- START PROJEKTE PAGE IPHONE SE --------------- */
+
+    #grid-lable-tag {
+        height: 23vh;
+        margin-bottom: 5%;
+    }
+
+    #grid-lable-tag>h4 {
+        font-size: 0.95rem;
+    }
+
+    #grid-lable-tag>p {
+        font-size: 0.95rem;
+        margin-bottom: 5%;
+    }
+
+    #section-first {
+        height: 100vh;
+    }
+
+
+    /* --------------- ENDE PROJEKTE PAGE IPHONE SE --------------- */
 
 }
 
@@ -1752,6 +1877,16 @@ a {
     position: absolute;
     top: 8px;
     left: 11.5%;
+}
+
+/* ------------------------ Styling Desktop Version Sunday ------------------------ */
+
+/* ------------------------ Styling Desktop Version Sunday ------------------------ */
+
+.ThisPNeedstoBeSmaller {
+    width: 80%;
+    margin: 0;
+    padding: 0;
 }
 
 /* ------------------------ Styling Desktop Version Sunday ------------------------ */
