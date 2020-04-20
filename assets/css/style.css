@@ -1241,11 +1241,11 @@ a {
 
 
     #about>article:nth-child(2)>img {
-      max-width: 320px;
-      margin: 0;
-      padding: 0;
-      margin-top: 12.5%;
-  }
+        max-width: 320px;
+        margin: 0;
+        padding: 0;
+        margin-top: 12.5%;
+    }
 
 
 
@@ -1983,4 +1983,8 @@ a {
 #about>article:nth-child(1)>div>div:nth-child(4)>h3 {
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+#about>article:nth-child(2)>img {
+    margin-right: 0;
 }
