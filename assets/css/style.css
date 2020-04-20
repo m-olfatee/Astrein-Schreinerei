@@ -170,6 +170,7 @@ body {
     text-decoration: none;
     color: #232323;
     font-size: 1rem;
+    text-shadow: 0 0 10px #aaa;
 }
 
 #section-first>div.section-first-link>p>a:nth-child(1) {
@@ -700,8 +701,8 @@ form {
     margin-right: 6%;
 }
 
-.index2-section-fierta article {
-    margin-left: 13%;
+#about article {
+    margin-left: 5%;
     margin-right: 2%;
 }
 
@@ -710,9 +711,10 @@ form {
     font-size: 2em;
 }
 
+
 .index2-section-fierta-div {
     display: grid;
-    grid-template-columns: 44% 44%;
+    grid-template-columns: 50% 50%;
     gap: 2%;
 }
 
@@ -1231,6 +1233,22 @@ a {
 
 
     /* --------------- ENDE PROJEKTE PAGE IPHONE SE --------------- */
+
+    #about>article {
+        max-width: 320px;
+        margin: 0;
+    }
+
+
+    #about>article:nth-child(2)>img {
+      max-width: 320px;
+      margin: 0;
+      padding: 0;
+      margin-top: 12.5%;
+  }
+
+
+
 
 }
 
@@ -1819,6 +1837,9 @@ a {
         height: 100%;
     }
 
+    #about>article:nth-child(1)>h1 {
+        margin-left: 5%;
+    }
 
     /* ------------------------ Styling Mobile Version Sunday ------------------------ */
     /* ------------------------ Styling Mobile Version Monday ------------------------ */
@@ -1891,7 +1912,7 @@ a {
 #section-first>div.section-first-link>h3>sup {
     position: absolute;
     top: 8px;
-    left: 11.5%;
+    left: 12.5%;
 }
 
 /* ------------------------ Styling Desktop Version Sunday ------------------------ */
@@ -1905,3 +1926,61 @@ a {
 }
 
 /* ------------------------ Styling Desktop Version Sunday ------------------------ */
+
+
+/* ------------------------ Contact US Movement ------------------------ */
+
+#index-NoVisibleContactSection {
+    background: #FFFFFF;
+    transition: all 1s ease;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    bottom: 0;
+    z-index: 1000;
+}
+
+
+
+/* @keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+} */
+
+/* ------------------------ Contact US Movement ------------------------ */
+
+
+#about>article:nth-child(1)>div>div:nth-child(3) {
+    word-wrap: break-word
+}
+
+#about>article:nth-child(1)>h1 {
+    margin-bottom: 8%;
+}
+
+#about>article:nth-child(1)>div>div:nth-child(1)>h3 {
+    margin-bottom: 5%;
+}
+
+#about>article:nth-child(1)>div>div:nth-child(2)>h3 {
+    margin-bottom: 5%;
+}
+
+#about>article:nth-child(1)>div>div:nth-child(3)>h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#about>article:nth-child(1)>div>div:nth-child(4)>h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
