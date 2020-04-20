@@ -291,6 +291,7 @@ body {
 .label-tag h4 {
     color: #232323;
     font-size: 1.5vw;
+
 }
 
 .label-tag p {
@@ -298,8 +299,10 @@ body {
 }
 
 .label-tag:hover {
-    box-shadow: 0.66vw 0.66vw black;
-
+    box-shadow: 1.5vw 1.5vw black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #grid-lable-tag {
@@ -886,7 +889,7 @@ a {
 .section-first-link h3 {
     position: relative;
     animation-direction: alternate;
-    animation: TypeWriterPloppH3 1.5s 1;
+    animation: TypeWriterPloppH3 2s 1;
 }
 
 @keyframes TypeWriterPloppH3 {
@@ -908,7 +911,7 @@ a {
 .section-first-link h3 sup {
     position: relative;
     animation-direction: alternate;
-    animation: TypeWriterPloppH3Sup 3s 1;
+    animation: TypeWriterPloppH3Sup 2s 1;
 }
 
 @keyframes TypeWriterPloppH3Sup {
@@ -932,7 +935,7 @@ a {
 .section-first-link h2 {
     position: relative;
     animation-direction: alternate;
-    animation: TypeWriterPloppH2 1.5s 1;
+    animation: TypeWriterPloppH2 2s 1;
 }
 
 @keyframes TypeWriterPloppH2 {
@@ -1081,6 +1084,32 @@ a {
 }
 
 /* ----------------------------------------überuns css hende ------------------------ */
+/* ------------------------ START MEDIA QUERIES FOR IPHONE SE ------------------------ */
+@media (max-width: 320px) {
+
+    /* --------------- START MAIN PAGE IPHONE SE --------------- */
+    #lable-tag {
+        height: 15vh;
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+
+    #section-first>div.section-first-link>h3 {
+        position: relative;
+    }
+
+    #section-first>div.section-first-link>h3>sup {
+        position: absolute;
+        top: 0px;
+        left: 15%;
+        font-size: 1rem;
+    }
+
+    /* --------------- START MAIN PAGE IPHONE SE --------------- */
+
+}
+
+/* ------------------------ START MEDIA QUERIES FOR IPHONE SE ------------------------ */
 @media (max-width: 468px) {
     /* 
 
@@ -1596,10 +1625,8 @@ a {
         margin-top: 7.5%;
     }
 
-
     #index-section-third-article1>div:nth-child(1) {
         margin: 0;
-        width: 411px;
     }
 
     #index-section-third-article1>div:nth-child(1)>img.display-img {
@@ -1711,32 +1738,20 @@ a {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------ Styling Desktop Version Sunday ------------------------ */
 
 #grid-show>section.index-section-zweiter>h2>article>p {
     font-weight: 400
 }
 
+#section-first>div.section-first-link>h3 {
+    position: relative;
+}
 
+#section-first>div.section-first-link>h3>sup {
+    position: absolute;
+    top: 8px;
+    left: 11.5%;
+}
 
 /* ------------------------ Styling Desktop Version Sunday ------------------------ */
