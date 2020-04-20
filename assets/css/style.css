@@ -1413,19 +1413,7 @@ a {
         float: right;
     }
 
-    /* ------------------------ Styling Desktop Version Sunday ------------------------ */
 
-    #grid-show>section.index-section-zweiter>h2>article>p {
-        font-weight: 400
-    }
-
-    #about>img {
-        width: 40%;
-        height: 90%;
-        object-fit: center/cover;
-    }
-
-    /* ------------------------ Styling Desktop Version Sunday ------------------------ */
 
     /* ------------------------ MAIN SECTION 1 ------------------------ */
     #logo {
@@ -1860,6 +1848,33 @@ a {
 
 
     /* ------------------------ Styling Mobile Version Monday ------------------------ */
+
+    #index-section-third-article2 {
+        display: block;
+    }
+
+    #index-section-third {
+        height: fit-content;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        margin-top: 0;
+    }
+
+    #mySidenav .hover {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    #openbtn {
+        font-size: 2rem;
+        margin-top: 4%;
+    }
+
+    /* ------------------------ Main Fixxes------------------------ */
 
 }
 
