@@ -1241,7 +1241,7 @@ a {
         font-size: 36px;
         margin-left: 50px;
     }
-    
+
     .topnav {
         overflow: hidden;
         position: relative;
@@ -1259,7 +1259,19 @@ a {
         float: right;
     }
 
+    /* ------------------------ Styling Desktop Version Sunday ------------------------ */
 
+    #grid-show>section.index-section-zweiter>h2>article>p {
+        font-weight: 400
+    }
+
+    #about>img {
+        width: 40%;
+        height: 90%;
+        object-fit: center/cover;
+    }
+
+    /* ------------------------ Styling Desktop Version Sunday ------------------------ */
 
     /* ------------------------ MAIN SECTION 1 ------------------------ */
     #logo {
@@ -1538,31 +1550,144 @@ a {
         left: 21.5%;
     }
 
-      #index-section-third-article1 {
-          margin-bottom: 45vh;
-    }  
+    #index-section-third-article1 {
+        margin-bottom: 45vh;
+    }
 
-     #index-section-third-article2 {
-         display: block;
-     } 
-#index-section-third{
-    height: fit-content;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-}
-#footer {
-    margin-top: 0;
-}
+    #index-section-third-article2 {
+        display: block;
+    }
 
-#mySidenav .hover {
-    font-size: 3rem;
-    margin-bottom: 10vh;
-}
-#openbtn {
-    font-size: 2rem;
-    margin-top: 4%;
-} 
+    #index-section-third {
+        height: fit-content;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer {
+        margin-top: 0;
+    }
+
+    #mySidenav .hover {
+        font-size: 3rem;
+        margin-bottom: 10vh;
+    }
+
+    #openbtn {
+        font-size: 2rem;
+        margin-top: 4%;
+    }
+
     /* ------------------------ Main Fixxes------------------------ */
 
+    /* ------------------------ Styling Mobile Version Sunday ------------------------ */
+    /* ------------------------ MAIN PAGE ------------------------ */
+
+    #lable-tag>h4 {
+        font-size: 1.56rem;
+    }
+
+    #lable-tag>p {
+        margin-top: 2.5%;
+    }
+
+    #grid-show>section.index-section-zweiter>article>p {
+        margin-top: 7.5%;
+    }
+
+
+    #index-section-third-article1>div:nth-child(1) {
+        margin: 0;
+        width: 411px;
+    }
+
+    #index-section-third-article1>div:nth-child(1)>img.display-img {
+        width: 411px;
+    }
+
+    #index-section-third-article1>div:nth-child(1)>img.arrow-left {
+        margin-left: 15%;
+
+    }
+
+    #index-section-third-article2 {
+        margin-top: 15%;
+        margin-bottom: 0;
+        margin-bottom: -5%;
+    }
+
+    #footer>article:nth-child(2)>form {
+        justify-content: space-evenly;
+        margin-left: 8%;
+    }
+
+    #footer>article:nth-child(2)>form>input[type=button]:nth-child(1) {
+        width: 200px;
+    }
+
+    #footer>article:nth-child(2)>form>input[type=button]:nth-child(2) {
+        width: 200px
+    }
+
+    #index-section-third-article2>p:nth-child(4) {
+        width: 411px;
+        margin-top: 15%;
+        font-size: 0.95rem;
+    }
+
+    /* ------------------------ MAIN PAGE ------------------------ */
+    /* ------------------------ Über uns ------------------------ */
+    #about>article>h1 {
+        margin-bottom: 10%;
+    }
+
+    #about {
+        width: 411px;
+    }
+
+    #about>article>div>div:nth-child(1)>h3 {
+        margin-bottom: 10%;
+    }
+
+    #about>article>div>div:nth-child(2)>h3 {
+        margin-bottom: 10%;
+    }
+
+    #about>article>div>div:nth-child(3)>h3 {
+        margin-bottom: 10%;
+    }
+
+    #about>article>div>div:nth-child(4)>h3 {
+        margin-bottom: 10%;
+    }
+
+    #about>img {
+        width: 100%;
+        margin: 0;
+        margin-top: 10%
+    }
+
+    #grid-show>section.index2-section-fienfta>h2 {
+        font-size: 1.56em;
+        font-weight: bold;
+    }
+
+    /* ------------------------ Über uns ------------------------ */
+
+    #about>img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* ------------------------ Styling Mobile Version Sunday ------------------------ */
 }
+
+/* ------------------------ Styling Desktop Version Sunday ------------------------ */
+
+#grid-show>section.index-section-zweiter>h2>article>p {
+    font-weight: 400
+}
+
+/* ------------------------ Styling Desktop Version Sunday ------------------------ */
