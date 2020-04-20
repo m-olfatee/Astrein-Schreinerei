@@ -232,9 +232,10 @@ body {
 #grid {
     margin: 5% 0;
     display: none;
-    grid-template-columns: repeat(5, 45%);
+    grid-template-columns: repeat(3, 45%);
     gap: 3%;
     overflow-x: scroll;
+    scroll-behavior: smooth;
 
 }
 
@@ -275,7 +276,14 @@ body {
 .grid-kyto {
     background-image: url(../img/project_kyto.jpg);
 }
-
+#grid .grid-arrow{
+    position: fixed;
+    bottom: 5%;
+    padding: 0 5%;
+}
+#grid .grid-arrow a {
+    padding-right: 1vw;
+}
 /* ------------------------------------------------- Label Tag ------------------------------------------- */
 
 .label-tag {
