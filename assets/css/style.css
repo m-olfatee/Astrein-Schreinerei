@@ -1384,10 +1384,10 @@ a {
         margin-bottom: 10%;
     }
 
-    #index-section-third-article1>div:nth-child(1)>img.display-img {
+    /* #index-section-third-article1>div:nth-child(1)>img.display-img {
         width: 350px;
         padding: 0 auto;
-    }
+    } */
 
     #index-section-third-article2>p:nth-child(3) {
         font-size: 0.95rem;
@@ -1599,7 +1599,6 @@ a {
 
     #index-section-third-article1>div:nth-child(1) {
         margin: 0;
-        width: 411px;
     }
 
     #index-section-third-article1>div:nth-child(1)>img.display-img {
