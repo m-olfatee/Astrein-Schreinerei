@@ -864,8 +864,9 @@ a {
 
 #SectionRightOfContactUs form input {
     margin: 2% 0;
+    padding: 1%;
     width: 120%;
-    height: 2rem;
+    font-size: 1.5rem;
 }
 
 #SectionRightOfContactUs form input:last-child {
@@ -874,9 +875,13 @@ a {
     height: 2rem;
 }
 
-#SectionRightOfContactUs form input:nth-of-type(3) {
-    height: 8rem;
-}
+
+/* #ContactUsInputMessage {
+    padding: 2%;
+     height: 8rem;
+    width: 100%;
+    word-wrap: break-all;
+} */
 
 #SectionRightOfContactUs h4 {
     color: #232323;
