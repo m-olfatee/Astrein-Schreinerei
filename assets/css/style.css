@@ -1642,10 +1642,9 @@ a {
         margin-bottom: 10%;
     }
 
-    #about {
+    /* #about {
         width: 411px;
-    }
-
+    } */
     #about>article>div>div:nth-child(1)>h3 {
         margin-bottom: 10%;
     }
@@ -1682,12 +1681,62 @@ a {
 
 
     /* ------------------------ Styling Mobile Version Sunday ------------------------ */
+    /* ------------------------ Styling Mobile Version Monday ------------------------ */
+
+
+    .section-three-link .display-img {
+        height: 30vh;
+        margin-top: 5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 100%;
+        /* margin-bottom: 0; */
+    }
+
+    #index-section-third-article2 {
+        margin-top: 0;
+    }
+
+    .section-three-link .vertical {
+        width: 75%;
+    }
+
+    #index-section-third-article1 {
+        height: 0vh;
+    }
+
+
+
+    /* ------------------------ Styling Mobile Version Monday ------------------------ */
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------ Styling Desktop Version Sunday ------------------------ */
 
 #grid-show>section.index-section-zweiter>h2>article>p {
     font-weight: 400
 }
+
+
 
 /* ------------------------ Styling Desktop Version Sunday ------------------------ */
