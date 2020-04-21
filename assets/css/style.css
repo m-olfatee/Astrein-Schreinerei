@@ -1118,6 +1118,14 @@ a {
     display: none;
 }
 
+.arrow-hover {
+    transition: 0.5s ease;
+}
+
+.arrow-hover:hover {
+    -ms-transform: scale(1.5,1.5); /* IE 9 */
+    transform: scale(1.5,1.5); /* Standard syntax */
+}
 /* ----------------------------------------überuns css hende ------------------------ */
 /* ------------------------ START MEDIA QUERIES FOR IPHONE SE ------------------------ */
 @media (max-width: 320px) {
