@@ -9,10 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------*/
-/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
-/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
-
 h1 {
     font-size: 4.375rem;
     font-family: "Libre Baskerville", serif;
@@ -92,15 +88,6 @@ a {
     border: 2px solid #ffffff;
 }
 
-/* Exceptions for those general rules can be found in Trello. Please use ID to change Style in specific cases. */
-/* ------------------------ Please keep it in the beginning, then the others will be overwritten. */
-/* ------------------------ ENDE - CODE VON JASCHA - General Design Suggestion -------------------*/
-
-body {
-    font-family: "Libre Baskerville", serif;
-    font-family: "Fira Sans", sans-serif;
-}
-
 .hover {
     display: inline-block;
     position: relative;
@@ -155,7 +142,6 @@ body {
     width: 50%;
     height: 50%;
 }
-
 
 .navigation ul {
     display: flex;
@@ -276,14 +262,17 @@ body {
 .grid-kyto {
     background-image: url(../img/project_kyto.jpg);
 }
+
 #grid .grid-arrow{
     position: fixed;
     bottom: 5%;
     padding: 0 5%;
 }
+
 #grid .grid-arrow a {
     padding-right: 1vw;
 }
+
 /* ------------------------------------------------- Label Tag ------------------------------------------- */
 
 .label-tag {
@@ -300,7 +289,6 @@ body {
 .label-tag h4 {
     color: #232323;
     font-size: 1.5vw;
-
 }
 
 .label-tag p {
@@ -331,7 +319,6 @@ body {
 #grid-lable-tag p {
     font-size: 0.8vw;
 }
-
 
 /* --------------------------------------------------- Scroll ------------------------------------------- */
 
@@ -411,16 +398,13 @@ body {
     0% {
         opacity: 0;
     }
-
     30% {
         opacity: 1;
     }
-
     60% {
         box-shadow: 0 0 0 60px rgba(255, 255, 255, .1);
         opacity: 0;
     }
-
     100% {
         opacity: 0;
     }
@@ -430,16 +414,13 @@ body {
     0% {
         opacity: 0;
     }
-
     30% {
         opacity: 1;
     }
-
     60% {
         box-shadow: 0 0 0 60px rgba(255, 255, 255, .1);
         opacity: 0;
     }
-
     100% {
         opacity: 0;
     }
@@ -456,11 +437,8 @@ body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
 }
 
+/* ------------------------ Styling Section 3 -------------------*/
 
-
-
-
-/* ------------------------ START - CODE VON JASCHA - Styling Section 3 -------------------*/
 #index-section-third {
     height: 50vh;
     width: 100%;
@@ -508,18 +486,6 @@ body {
     margin: 2% 0;
 }
 
-/* .SchwarzerButton {
-    text-decoration: none;
-    color: black;
-    border: 2px solid black;
-    width: 15%;
-    text-align: center;
-    box-shadow: 5px 5px black;
-    font-size: 0.8em;
-    padding: 1% 1%;
-    margin-top: 3%;
-} */
-
 .section-three-link a {
     color: black;
     font-size: 2em;
@@ -553,12 +519,8 @@ body {
     display: none;
 }
 
-/* ------------------------ ENDE - CODE VON JASCHA - Styling Section 3 -------------------*/
-/* #index-main>section>div:nth-child(3) {
-    display: none;
-} */
-
 /* -------------------------------- section2 ------------------------------------------------------ */
+
 .index-section-zweiter {
     margin: 8%;
 }
@@ -582,6 +544,7 @@ body {
 }
 
 /* -------------------------------- footer ------------------------------------------------------ */
+
 .index-footer {
     display: flex;
     justify-content: space-around;
@@ -623,7 +586,8 @@ form {
     justify-content: space-around;
 }
 
-/* ----------------------------- Project UX CSS --------------------------------- */
+/* ----------------------------- Project UX --------------------------------- */
+
 .project-ux-first {
     background-image: url(../img/project_ux.jpg);
 }
@@ -632,8 +596,8 @@ form {
     color: #232323;
 }
 
+/* ----------------------------- Project Kyto  --------------------------------- */
 
-/* ----------------------------- Project Kyto CSS --------------------------------- */
 .project-kyto-first {
     background-image: url(../img/project_kyto.jpg);
 }
@@ -646,7 +610,8 @@ form {
     background-color: #fafafa;
 }
 
-/* -----------------------------------------überuns css ------------------------ */
+/* -----------------------------------------überuns  ------------------------ */
+
 .index2-section-first {
     background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
     /* height: 100vh; */
@@ -719,7 +684,6 @@ form {
     font-size: 2em;
 }
 
-
 .index2-section-fierta-div {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -764,68 +728,11 @@ form {
 }
 
 #index-main .about-first .navigation .hover::before {
-
     background-color: #fafafa;
-
 }
 
-/* ------------------------ START - CODE VON JASCHA - General Design Suggestion -------------------
-/* ------------------------ Please keep it in the end, then the others will be overwritten. */
+/* ------------------------ Anfang - ContactPage -------------------*/
 
-/* h1 {
-    font-size: 4.375em;
-    font-family: "Libre Baskerville", serif;
-    color: #232323;
-    font-weight: 700;
-}
-h2 {
-    font-size: 3.125em;
-    font-family: "Libre Baskerville", serif;
-    color: #232323;
-    font-weight: 700;
-}
-h3 {
-    font-size: 1.875em;
-    font-family: "Libre Baskerville", serif;
-    color: #fafafa;
-    font-weight: 700;
-}
-h4 {
-    font-size: 1.25em;
-    font-family: "Libre Baskerville", serif;
-    color: #ffffff;
-    font-weight: 700;
-}
-h5 {
-    font-size: 0.75em;
-    color: #232323;
-    font-family: "Libre Baskerville", serif;
-}
-h6 {
-    font-size: 0.5em;
-}
-p {
-    font-size: 1.25em;
-    font-family: "Libre Baskerville", serif;
-    color: #232323;
-}
-a {
-    font-size: 1em;
-}
-.SchwarzerButton {
-    font-size: 0.75em;
-    color: #232323;
-    font-family: "Libre Baskerville", serif;
-}
-.BottomFooterDesign {
-    font-family: "Libre Baskerville", serif;
-    font-size: 1.25em;
-    color: #ffffff;
-    text-align: center;
-    border: 2px solid #ffffff;
-} */
-
-/* ------------------------ Anfang - CODE VON JASCHA - ContactPage -------------------*/
 #HeaderOfContactUs {
     height: 5vh;
     width: 100%;
@@ -875,14 +782,6 @@ a {
     height: 2rem;
 }
 
-
-/* #ContactUsInputMessage {
-    padding: 2%;
-     height: 8rem;
-    width: 100%;
-    word-wrap: break-all;
-} */
-
 #SectionRightOfContactUs h4 {
     color: #232323;
     margin-bottom: 5%;
@@ -902,25 +801,8 @@ a {
     z-index: 1000;
 }
 
-
-/* @keyframes fadeInRight {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-}  */
-/* ------------------------ Ende - CODE VON JASCHA - ContactPage -------------------*/
-
-/* ------------------------ Anfang - CODE VON JASCHA - Animation MAIN SECTION 1 -------------------*/
-
 /* ------------------------ Anfang ANIMATION Zahlen ------------------------  */
+
 .section-first-link h3 {
     position: relative;
     animation-direction: alternate;
@@ -933,7 +815,6 @@ a {
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -941,8 +822,8 @@ a {
     }
 }
 
-/* ------------------------ Ende ANIMATION Zahlen ------------------------  */
 /* ------------------------ Anfang ANIMATION Zahlen MiniZahl SUP ------------------------  */
+
 .section-first-link h3 sup {
     position: relative;
     animation-direction: alternate;
@@ -955,7 +836,6 @@ a {
         -webkit-transform: translate3d(0, -300%, 0);
         transform: translate3d(0, -300%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -963,7 +843,6 @@ a {
     }
 }
 
-/* ------------------------ Ende ANIMATION Zahlen MiniZahl SUP ------------------------  */
 
 /* ------------------------ Anfang ANIMATION Vom Text ------------------------  */
 
@@ -979,7 +858,6 @@ a {
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
-
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -994,11 +872,9 @@ a {
 
 .index2-section-first {
     background-image: url(../img/alex-jones-bBKVrH0vzB4-unsplash.jpg);
-    /* height: 100vh; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding-bottom: 16.5%; */
 }
 
 .index2-section-first>div.section-first-link>p>a:nth-child(1) {
@@ -1011,7 +887,6 @@ a {
     width: 35%;
     margin-left: 60%;
     margin-top: 12.5%;
-    /* margin-bottom: 10%; */
     padding: 2.5%;
 }
 
@@ -1034,9 +909,6 @@ a {
     margin: 10%;
 }
 
-/* .index2-section-zweiter article:nth-child(1) {
-    display: none;
-} */
 .index2-article-first h2 {
     font-size: 2rem;
 }
@@ -1123,14 +995,14 @@ a {
 }
 
 .arrow-hover:hover {
-    -ms-transform: scale(1.5,1.5); /* IE 9 */
-    transform: scale(1.5,1.5); /* Standard syntax */
+    -ms-transform: scale(1.5,1.5); 
+    transform: scale(1.5,1.5); 
 }
-/* ----------------------------------------überuns css hende ------------------------ */
+
 /* ------------------------ START MEDIA QUERIES FOR IPHONE SE ------------------------ */
+
 @media (max-width: 320px) {
 
-    /* --------------- START MAIN PAGE IPHONE SE --------------- */
     #lable-tag {
         height: 15vh;
         margin: 0;
@@ -1142,7 +1014,6 @@ a {
     #section-first>div.section-first-link>h3 {
         margin-bottom: 7.5%;
     }
-
 
     #openbtn {
         position: absolute;
@@ -1181,7 +1052,6 @@ a {
     #index-main a {
         font-size: 0.95rem;
     }
-
 
     #index-section-third {
         max-width: 320px;
@@ -1232,12 +1102,6 @@ a {
         padding: 0;
     }
 
-
-
-    /* --------------- START MAIN PAGE IPHONE SE --------------- */
-
-    /* --------------- START BurgerButton IPHONE SE --------------- */
-
     #mySidenav>a:nth-child(2) {
         font-size: 2rem;
     }
@@ -1249,10 +1113,6 @@ a {
     #mySidenav>a:nth-child(4) {
         font-size: 2rem;
     }
-
-
-    /* --------------- Ende BurgerButton IPHONE SE --------------- */
-    /* --------------- START PROJEKTE PAGE IPHONE SE --------------- */
 
     #grid-lable-tag {
         height: 23vh;
@@ -1272,14 +1132,10 @@ a {
         height: 100vh;
     }
 
-
-    /* --------------- ENDE PROJEKTE PAGE IPHONE SE --------------- */
-
     #about>article {
         max-width: 320px;
         margin: 0;
     }
-
 
     #about>article:nth-child(2)>img {
         max-width: 320px;
@@ -1287,126 +1143,10 @@ a {
         padding: 0;
         margin-top: 12.5%;
     }
-
-
-
-
 }
 
-/* ------------------------ START MEDIA QUERIES FOR IPHONE SE ------------------------ */
 @media (max-width: 468px) {
-    /* 
-
     
-
-    #section-scroll {
-        display: none;
-    }
-
-
-    #logo {
-        width: 35%;
-    }
-
-
-    .section-first-link {
-        margin-left: 5%;
-        margin-top: 35%;
-    }
-
-    .section-first-link h3 {
-        font-size: 1.5em;
-    }
-
-    .index2-section-fierta {
-        display: block;
-    }
-
-    .index2-section-first-text {
-        display: none;
-    }
-
-    .index2-section-zweiter article:nth-child(1) {
-        display: block;
-        margin: 10% 2%;
-    }
-
-    .index2-section-zweiter article:nth-child(1) h2 {
-        font-size: 1.4em;
-    }
-
-    .index2-section-fierta img {
-        width: 351px;
-        height: 365px;
-        margin: 5%;
-    }
-
-    .index2-section-fierta article h1 {
-        margin-bottom: 18%;
-        font-size: 2em;
-    }
-
-    .lable-grid {
-        display: none;
-    }
-
-    .index2-section-fierta-div {
-        display: grid;
-        grid-template-columns: 90%;
-        margin: 5%;
-    }
-
-    .index2-article-first h2 {
-        font-size: 1.5rem;
-    }
-
-    .index2-section-fienfta {
-        margin: 8% 4%;
-    }
-
-    .index2-section-fienfta h2 {
-        font-size: 1em;
-        font-weight: 900;
-    }
-
-    .index-footer article {
-        margin-left: 3%;
-    }
-
-    .index-footer h2 {
-        color: #FAFAFA;
-        font-size: 27px;
-        margin-top: 8%;
-    }
-
-    .index-footer h4 {
-        color: #FAFAFA;
-        font-size: 18px;
-    }
-
-    input[type=“button”]:nth-child(1) {
-        background-color: #232323;
-        color: #FAFAFA;
-        border: 2px solid #FAFAFA;
-        font-size: 1em;
-        margin: 4% 0;
-        padding: 10px 23px;
-    }
-
-    input[type=“button”]:nth-child(2) {
-        background-color: #232323;
-        color: #FAFAFA;
-        border: 2px solid #FAFAFA;
-        font-size: 1em;
-        margin: 4% 0;
-        padding: 10px 10px;
-    }
-
-    form {
-        display: block;
-        text-align: center;
-    } */
-
     .navigation ul {
         display: none;
     }
@@ -1472,9 +1212,6 @@ a {
         float: right;
     }
 
-
-
-    /* ------------------------ MAIN SECTION 1 ------------------------ */
     #logo {
         display: flex;
         height: 50px;
@@ -1521,7 +1258,6 @@ a {
         font-size: 0.95rem;
     }
 
-
     .index-section-first a {
         font-size: 0.95rem;
     }
@@ -1543,9 +1279,6 @@ a {
         margin-right: 15%;
     }
 
-    /* ------------------------ MAIN SECTION 1 ------------------------ */
-    /* ------------------------ MAIN SECTION 2 ------------------------ */
-
     #index-main>section.index-section-zweiter {
         display: block;
     }
@@ -1562,8 +1295,6 @@ a {
         margin-bottom: 10%;
     }
 
-    /* ------------------------ MAIN SECTION 2 ------------------------ */
-    /* ------------------------ MAIN SECTION 3 ------------------------ */
     #index-section-third {
         height: 100vh;
         display: block;
@@ -1575,7 +1306,6 @@ a {
         margin-bottom: 0;
         width: 400px;
     }
-
 
     #index-section-third-article2>p:nth-child(2) {
         font-size: 0.95rem;
@@ -1607,9 +1337,6 @@ a {
     #index-section-third-article2>p:nth-child(2) {
         width: 350px;
     }
-
-    /* ------------------------ MAIN SECTION 3 ------------------------ */
-    /* ------------------------ MAIN Footer ------------------------ */
 
     .index-footer {
         margin-top: 30vh;
@@ -1643,8 +1370,6 @@ a {
         margin-left: 5%;
     }
 
-    /* ------------------------ MAIN Footer ------------------------ */
-    /* ------------------------ ContactUS------------------------ */
     #MainOfContactUs {
         flex-direction: column;
     }
@@ -1694,8 +1419,6 @@ a {
         margin-top: 3.5%;
     }
 
-    /* ------------------------ ContactUS------------------------ */
-    /* ------------------------ ProjektSeite Section 1------------------------ */
     #section-first {
         height: 100vh;
     }
@@ -1714,9 +1437,6 @@ a {
         width: 88%;
         right: 1vw;
     }
-
-    /* ------------------------ ProjektSeite Section 1------------------------ */
-    /* ------------------------ Überuns Section 3 ------------------------ */
 
     .index2-section-fierta {
         display: block;
@@ -1742,10 +1462,6 @@ a {
         grid-template-columns: 90%;
         margin: 5%;
     }
-
-    /* ------------------------ Überuns Section 3 ------------------------ */
-
-    /* ------------------------ Main Fixxes------------------------ */
 
     #section-scroll {
         left: 21.5%;
@@ -1780,11 +1496,6 @@ a {
         margin-top: 4%;
     }
 
-    /* ------------------------ Main Fixxes------------------------ */
-
-    /* ------------------------ Styling Mobile Version Sunday ------------------------ */
-    /* ------------------------ MAIN PAGE ------------------------ */
-
     #lable-tag>h4 {
         font-size: 1.56rem;
     }
@@ -1807,7 +1518,6 @@ a {
 
     #index-section-third-article1>div:nth-child(1)>img.arrow-left {
         margin-left: 15%;
-
     }
 
     #index-section-third-article2 {
@@ -1835,15 +1545,10 @@ a {
         font-size: 0.95rem;
     }
 
-    /* ------------------------ MAIN PAGE ------------------------ */
-    /* ------------------------ Über uns ------------------------ */
     #about>article>h1 {
         margin-bottom: 10%;
     }
 
-    /* #about {
-        width: 411px;
-    } */
     #about>article>div>div:nth-child(1)>h3 {
         margin-bottom: 10%;
     }
@@ -1871,8 +1576,6 @@ a {
         font-weight: bold;
     }
 
-    /* ------------------------ Über uns ------------------------ */
-
     #about>img {
         width: 100%;
         height: 100%;
@@ -1882,17 +1585,12 @@ a {
         margin-left: 5%;
     }
 
-    /* ------------------------ Styling Mobile Version Sunday ------------------------ */
-    /* ------------------------ Styling Mobile Version Monday ------------------------ */
-
-
     .section-three-link .display-img {
         height: 30vh;
         margin-top: 5%;
         margin-left: 2.5%;
         margin-right: 2.5%;
         width: 100%;
-        /* margin-bottom: 0; */
     }
 
     #index-section-third-article2 {
@@ -1906,10 +1604,6 @@ a {
     #index-section-third-article1 {
         height: 0vh;
     }
-
-
-
-    /* ------------------------ Styling Mobile Version Monday ------------------------ */
 
     #index-section-third-article2 {
         display: block;
@@ -1936,11 +1630,9 @@ a {
         margin-top: 4%;
     }
 
-    /* ------------------------ Main Fixxes------------------------ */
 
 }
 
-/* ------------------------ Styling Desktop Version Sunday ------------------------ */
 
 #grid-show>section.index-section-zweiter>h2>article>p {
     font-weight: 400
@@ -1956,29 +1648,11 @@ a {
     left: 12.5%;
 }
 
-/* ------------------------ Styling Desktop Version Sunday ------------------------ */
-
-/* ------------------------ Styling Desktop Version Sunday ------------------------ */
-
 .ThisPNeedstoBeSmaller {
     width: 80%;
     margin: 0;
     padding: 0;
 }
-
-/* ------------------------ Styling Desktop Version Sunday ------------------------ */
-
-
-/* ------------------------ Contact US Movement ------------------------ */
-
-
-
-
-
-
-
-/* ------------------------ Contact US Movement ------------------------ */
-
 
 #about>article:nth-child(1)>div>div:nth-child(3) {
     word-wrap: break-word
