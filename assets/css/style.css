@@ -519,10 +519,12 @@ a {
 #index-section-third-article2 p {
     margin: 2% 0;
 }
+
 #index-section-third-article2 h2 {
     font-size: 2rem;
     margin-top: 0;
 }
+
 #index-section-third-article2 p {
     font-size: 1rem;
 }
@@ -581,8 +583,9 @@ a {
 }
 
 .index-section-zweiter article p:nth-child(1) {
-    margin-left: 33.33%;  
-    margin-right: 2%;
+    margin-left: 0%;
+    margin-right: 1%;
+    width: 100%;
 }
 
 
@@ -617,26 +620,20 @@ input[type="button"] {
 
 .Webentwickler {
     color: #fafafa;
-    /* font-size: 1.4em; */
+    font-size: 0.8em;
 }
+
 
 .Webentwickler p {
     color: #fafafa;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-left: 1.25%;
 }
 
 .Webentwickler a {
     margin: 0 10px;
     color: #fafafa;
-    font-size: 1em;
-    text-decoration: none;
-}
-
-.Webentwickler a:hover {
-    margin: 0 10px;
-    color: #fafafa;
-    font-size: 1.1em;
+    font-size: 0.7em;
     text-decoration: none;
 }
 
@@ -859,6 +856,7 @@ input[type="submit"] {
     margin: 5% 0;
     transition: 0.25s ease;
 }
+
 input[type="submit"]:hover {
     background-color: #232323;
     color: #fafafa;
@@ -866,7 +864,7 @@ input[type="submit"]:hover {
     font-size: 1rem;
     margin: 0 15%;
     padding: 10px 30px;
-    box-shadow: 5px 5px #232323;    
+    box-shadow: 5px 5px #232323;
 }
 
 
@@ -1009,12 +1007,14 @@ input[type="submit"]:hover {
     margin: 5% 0;
     width: 104%;
 }
+
 .index2-section-zweiter div {
     padding-top: 5%;
     display: grid;
     grid-template-columns: 45% 45%;
     gap: 10%;
 }
+
 .index2-section-fierta {
     display: flex;
 }
@@ -1025,19 +1025,20 @@ input[type="submit"]:hover {
     height: 565px;
     margin-right: 6%;
 }
+
 .index2-section-fierta {
     margin: 10%
 }
-    
-    #about article {
-        /* margin-left: 5%; */
-        /* margin-right: 2%; */
-    }
-    
-    .index2-section-fierta article {
-        /* margin-left: 10%; */
-        /* margin-right: 2%; */
-    }
+
+/* #about article { */
+/* margin-left: 5%; */
+/* margin-right: 2%; */
+/* } */
+
+/* .index2-section-fierta article { */
+/* margin-left: 10%; */
+/* margin-right: 2%; */
+/* } */
 
 /* .index2-section-fierta article {
     margin-left: 10%;
@@ -1167,7 +1168,7 @@ input[type="submit"]:hover {
     }
 
     #index-main a {
-        font-size: 0.95rem;
+        font-size: 2rem;
     }
 
     #index-section-third {
@@ -1268,7 +1269,15 @@ input[type="submit"]:hover {
     }
 
     .Webentwickler {
-        margin-right: 5%;
+        padding-right: 3%;
+    }
+
+    #footer>article.Webentwickler {
+        margin-right: 0%;
+    }
+
+    #section-first>div.section-first-link>p>a:nth-child(2) {
+        padding-left: 1%;
     }
 
 }
@@ -1444,7 +1453,7 @@ input[type="submit"]:hover {
     }
 
     #index-section-third-article2>p:nth-child(2) {
-        font-size: 0.95rem;
+        font-size: 1rem;
         display: block;
         width: 400px;
         margin-top: 10%;
@@ -1457,7 +1466,7 @@ input[type="submit"]:hover {
     }
 
     #index-section-third-article2>p:nth-child(3) {
-        font-size: 0.95rem;
+        font-size: 1rem;
         display: block;
         width: 310px;
     }
@@ -1618,9 +1627,6 @@ input[type="submit"]:hover {
         flex-direction: column;
     }
 
-    #footer {
-        margin-top: 0;
-    }
 
     #mySidenav .hover {
         font-size: 3rem;
@@ -1678,7 +1684,7 @@ input[type="submit"]:hover {
     #index-section-third-article2>p:nth-child(4) {
         width: 411px;
         margin-top: 15%;
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 
     #about>article>h1 {
@@ -1753,7 +1759,7 @@ input[type="submit"]:hover {
     }
 
     #footer {
-        margin-top: 0;
+        margin-top: 50px;
     }
 
     #mySidenav .hover {
@@ -1792,14 +1798,24 @@ input[type="submit"]:hover {
     }
 
     .Webentwickler {
-        margin-right: 5%;
-        margin-left: 7.5%;
+        margin: 0;
+        padding: 0;
         margin-top: 5%;
+        margin-right: 15%;
     }
 
     .Webentwickler a {
         margin: 0;
         padding: 0;
+    }
+
+    #grid-show>section.index2-section-zweiter>div {
+        grid-template-columns: 100%;
+        gap: 1%;
+    }
+
+    #section-first>div.section-first-link>p>a:nth-child(2) {
+        padding-left: 1%;
     }
 }
 
