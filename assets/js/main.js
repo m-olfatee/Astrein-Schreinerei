@@ -2,7 +2,7 @@ function grid(i) {
     var linkBox = document.getElementsByClassName("section-first-link");
     if (i == 0) {
         document.getElementById("mySidenav").style.width = `${i}`;
-        document.getElementById("mySidenav").style.display = "none";
+        document.getElementById("nav").style.display = "none";
         document.getElementById("openbtn").style.color = "#232323"
         linkBox.item(i).style.display = "none";
         document.getElementById("grid-show").style.display = "none";

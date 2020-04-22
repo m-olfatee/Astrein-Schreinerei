@@ -263,7 +263,16 @@ a {
     background-image: url(../img/project_kyto.jpg);
 }
 
-#grid .grid-arrow{
+
+
+
+
+
+
+
+
+
+#grid .grid-arrow {
     position: fixed;
     bottom: 5%;
     padding: 0 5%;
@@ -272,6 +281,23 @@ a {
 #grid .grid-arrow a {
     padding-right: 1vw;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ------------------------------------------------- Label Tag ------------------------------------------- */
 
@@ -398,13 +424,16 @@ a {
     0% {
         opacity: 0;
     }
+
     30% {
         opacity: 1;
     }
+
     60% {
         box-shadow: 0 0 0 60px rgba(255, 255, 255, .1);
         opacity: 0;
     }
+
     100% {
         opacity: 0;
     }
@@ -414,13 +443,16 @@ a {
     0% {
         opacity: 0;
     }
+
     30% {
         opacity: 1;
     }
+
     60% {
         box-shadow: 0 0 0 60px rgba(255, 255, 255, .1);
         opacity: 0;
     }
+
     100% {
         opacity: 0;
     }
@@ -569,6 +601,31 @@ input[type="button"] {
     font-size: 1.4em;
     margin: 0 15%;
     padding: 10px 30px;
+}
+
+.Webentwickler {
+    color: #fafafa;
+    /* font-size: 1.4em; */
+}
+
+.Webentwickler p {
+    color: #fafafa;
+    font-size: 1em;
+    margin-left: 1.25%;
+}
+
+.Webentwickler a {
+    margin: 0 10px;
+    color: #fafafa;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.Webentwickler a:hover {
+    margin: 0 10px;
+    color: #fafafa;
+    font-size: 1.1em;
+    text-decoration: none;
 }
 
 input[type="button"]:hover {
@@ -815,6 +872,7 @@ form {
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -836,6 +894,7 @@ form {
         -webkit-transform: translate3d(0, -300%, 0);
         transform: translate3d(0, -300%, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -858,6 +917,7 @@ form {
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
     }
+
     to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -995,13 +1055,20 @@ form {
 }
 
 .arrow-hover:hover {
-    -ms-transform: scale(1.5,1.5); 
-    transform: scale(1.5,1.5); 
+    -ms-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
 }
 
 /* ------------------------ START MEDIA QUERIES FOR IPHONE SE ------------------------ */
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
+
+    html {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        max-width: 321px;
+    }
 
     #lable-tag {
         height: 15vh;
@@ -1143,10 +1210,29 @@ form {
         padding: 0;
         margin-top: 12.5%;
     }
+
+
+
+    #index-section-third {
+        padding-bottom: 50px;
+    }
+
+    .Webentwickler {
+        margin-right: 5%;
+    }
+
 }
 
 @media (max-width: 468px) {
-    
+
+    html {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+        max-width: 468px;
+
+    }
+
     .navigation ul {
         display: none;
     }
@@ -1323,7 +1409,7 @@ form {
     #index-section-third-article2>p:nth-child(3) {
         font-size: 0.95rem;
         display: block;
-        width: 350px;
+        width: 310px;
     }
 
     #index-section-third {
@@ -1335,7 +1421,7 @@ form {
     }
 
     #index-section-third-article2>p:nth-child(2) {
-        width: 350px;
+        width: 310px;
     }
 
     .index-footer {
@@ -1631,6 +1717,40 @@ form {
     }
 
 
+    #footer>article.Webentwickler>article {
+        width: 99%;
+        margin-left: 7.5%;
+        margin-top: 5%
+    }
+
+    #footer {
+        padding-bottom: 5vh;
+        font-size: 0.95rem
+    }
+
+    #footer p {
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        font-size: 0.95rem
+    }
+
+    #footer a {
+        margin-top: 0%;
+        padding-top: 0%;
+        padding-bottom: 5vh;
+        font-size: 0.95rem
+    }
+
+    .Webentwickler {
+        margin-right: 5%;
+        margin-left: 7.5%;
+        margin-top: 5%;
+    }
+
+    .Webentwickler a {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 
